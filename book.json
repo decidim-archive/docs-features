@@ -1,0 +1,22 @@
+{
+  "title": "Decidim Features",
+  "description": "Decidim features",
+  "author": "Decidim Team <hola@decidim.org> (https://decidim.org/)",
+  "gitbook": ">=3.0.0",
+  "plugins": [
+    "-sharing",
+    "anchorjs",
+    "edit-link",
+    "wiki-toc"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "https://github.com/decidim/docs-features/edit/master/",
+      "label": {
+        "ca": "Edita",
+        "es": "Edita",
+        "en": "Edit"
+      }
+    }
+  }
+}
