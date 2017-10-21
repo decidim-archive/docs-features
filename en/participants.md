@@ -1,51 +1,52 @@
-# 4. Participants
+# 4	Participants
 
-## 4.1. Registre i verificació
+## 4.1	Registration and verification
 
-Qualsevol visitant pot accedir a tot el contingut de web directament. Tanmateix, per poder fer propostes o comentaris cal **registrar-s’hi**. El registre es pot fer **directament** a la plataforma o mitjançant passarel·les amb altres **xarxes socials** (Facebook, Twitter o Google+). El registre directe exigeix associar un compte de correu electrònic i una contrasenya al compte d'usuari/ària.
+Any visitor can access all of the website’s content directly. However, anyone who wishes to submit proposals or comments will have to **register**. Users may register **directly** on the platform or through gateways to other **social networks** (Facebook, Twitter or Google+). Users will need an associated email account and a user-account password to register directly.
 
-Les funcionalitats orientades a la decisió (suports, vots, etcètera) requereixen **verificació**. El principal sistema de verificació és contra el padró municipal o una altra base de dades de persones registrades, amb qui Decidim es comunica via API. També es pot verificar **via SMS**, o amb un **codi** especial enviat per carta o altres mitjans, i des del tauler d'administració es pot **verificar manualment** una persona participant [funcionalitats previstes per a 2018Q1-3, AjB-Lot1].
+Decision-orientated functions (endorsements, votes etc.,) require **verification**. The main verification method cross-checks against the municipal register and other databases that people have registered with whom Decidim can communicate via API. Users may also be verified **by text** or using a special **code** sent by post or other means. Also, from the administration panel allows a participant to be **manually verified** [functions expected for 2018Q1-3, AjB-Lote1].
 
-A més de la verificació, les persones participants poden sol·licitar **oficialitzar** el seu nom d'usuari/ària. Un cop oficialitzat, el seu nom d'usuari/ària apareixerà amb un símbol que permet reconèixer a tercers que aquest nom d'usuari/ària correspon a qui diu ser.
+Besides the verification process, participants can also ask to have their user name **made official**. Once made official, their user name will appear with a symbol that allows third parties to acknowledge that this user name corresponds to the person it claims to be.
 
-**Associacions o organitzacions** la identitat de les quals pugui verificar-se d'alguna manera també poden registrar-se i verificar-se. La verificació donarà automàticament estatus d'oficialització.
+**Associations and organisations** whose identity can be verified in some way can also be registered and verified. The official name status will be automatically verified.
 
-## 4.2. Registre públic d'activitat d'administració
+## 4.2	Public registration of administrative activity
 
-La verificació manual de participants, així com altres accions d'administració, introdueixen vulnerabilitat o possibilitats d'usos perversos per part de les persones administradores de la plataforma. Per això, Decidim inclou un **registre públic de les activitats d'administració** per poder auditar de manera pública i transparent les accions esmentades.
+The manual verification of participants, as well as other administrative actions can create vulnerability or may enable the platform's administrators to use the functions in an abusive manner. To that end, Decidim includes a **public register of administrative activities** so these actions can be publicly and transparently audited.
 
-## 4.3. Perfil d'usuari i configuració personal
+## 4.3	User profile and personal settings
 
-Existeix una **pàgina de perfil d'usuari** en la qual les persones participants poden **modificar les seves dades** (com el compte de correu electrònic, contrasenya, etcètera), pujar i habilitar una imatge d’**avatar**, configurar les notificacions i donar-se de baixa.
+There is a **user-profile page **where participants can make **changes to their data **(such as email account, password etc.), upload and enable an **avatar** image, set notifications and unsubscribe.
 
-La pàgina de perfil d'usuari permet també a participants definir el seu **perfil enriquit** d'interessos i habilitats, de manera voluntària i escollint el grau de visibilitat de la informació esmentada. Això permet rebre notificacions personalitzades o el *matching* per a col·laboracions [funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+The user-profile page also allows participants to add **additional information** to include interests and skills, voluntarily and by selecting the level of visibility of that information. This allows personal notifications to be sent and participants can be matched with others for collaborations [function expected for 2018Q1-3, AjB-Lote1].
 
-## 4.4. Seguiment i notificacions
+## 4.4	Monitoring and notifications
 
-Les persones participants reben **notificacions automàtiques** dels continguts que han creat: respostes a comentaris i comentaris a les seves propostes, així com dels resultats de les seves propostes (si han estat acceptades o rebutjades).
+Participants receive **automated notifications** regarding the content they have created: responses to comments and comments on their proposals, as well as the results of their proposals (whether accepted or rejected).
 
-A més de les notificacions automàtiques, una persona participant pot decidir **seguir qualsevol element** del sistema (altres propostes, resultats, processos, assemblees, iniciatives, grups o usuaris, etcètera) i rebre notificacions [funcionalitat prevista per a 2017Q3, GenCat].
+Besides automated notifications, participants can decide to **follow any element **of the system (other proposals, results, processes, assemblies, initiatives, groups or users etc.), and receive notifications [function expected for 2017Q3, GenCat].
 
-## 4.5. Comunicació entre participants
+## 4.5	Communication among participants
 
-És possible enviar **missatges directes** a participants a través de la plataforma, i es rebrà una notificació per correu electrònic [funcionalitat prevista per a 2017Q3, AjB].
+**Instant messages **can be sent to participants through the platform, who will receive an email notification [function expected for 2017Q3, AjB].
 
-També es poden fer **mencions** (en els comentaris) a qualsevol usuari/ària registrat/ada, i aquest/a rebrà automàticament una notificació. [funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+**Tags** can also be added (in the comments section) to any registered user and a notification will be automatically sent. [function expected for 2018Q1-3, AjB-Lote1]
 
-## 4.6. Engagement
+## 4.6	Engagement
 
-Decidim compta amb una sèrie de funcionalitats orientades a ludificar la plataforma, amb l'objectiu **d'atreure i mantenir interessats un nombre creixent de participants**, així com promoure pràctiques que potenciïn la qualitat democràtica i la intel·ligència col·lectiva en la participació [el sistema de ludificació està previst per a 2018Q1-3, AjB-Lot1].
+Decidim has a series of functions geared to *gamifying* the platform, to **attract and keep a growing number of participants interested**, as well as to promote practices that boost democratic quality and collective intelligence in participation [the gamification system is expected for 2018Q1-3, AjB-Lote1]. 
 
-El sistema de ludificació inclou dues modalitats, una de centrada en les persones usuàries i una altra de centrada en les propostes.
+The gamification system includes two modes, one centred on users and the other on proposals.
 
-* La modalitat **centrada en els usuaris** incorpora un **sistema de punts** basats en diferents criteris (grau de detall del seu perfil d'usuari, nombre d'invitacions a altres persones a la plataforma, nombre de propostes realitzades i comentades, nombre de comentaris, nombre de suports obtinguts, nombre de seguidors, etcètera).
+* The **user-centred **mode incorporates a **points system** based on several criteria (degree of detail of its user profile, number of invitations to others on the platform, number of proposals made and commented on, number of observations, number of endorsements obtained, number of followers, etc.)
 
-La combinació d'aquests i altres indicadors serveix per generar recorreguts de ludificació per a cada usuari i definir fites com ara: persona més participativa del districte, lideratge en debats, etcètera.
+The combination of these and other indicators is used for generating gamification routes for each user and defining threads such as: most participatory person in the district, leadership in discussions and debates, etc.
 
-* La ludificació **centrada en propostes/iniciatives** permet als seus promotors, signants i seguidors dinamitzar-ne la interacció incorporant algunes **mètriques** (nombre de vegades que la proposta és compartida en xarxes socials, grau de controvèrsia (nombre de comentaris positius i negatius), qualitat de la deliberació (profunditat de l'arbre de comentaris), quantitat de visites rebudes, etcètera.
+* Gamification **centred on proposals/initiatives** allows promoters, signatories and followers to boost interaction with them by incorporating several **metrics** (number of times that the proposal is shared in social networks, degree of controversy (number of positive and negative observations), quality of deliberation (depth of observation tree), number of hits received, etc.
 
-## 4.7. Grups d'usuaris
+## 4.7	User groups
 
-Les persones participants poden registrar-se a la plataforma com a membres d'una o diverses organitzacions/col·lectius. Una vegada verificada l'organització i la condició de membre, la participant pot realitzar accions (fer propostes, realitzar comentaris, etcètera) amb el seu nom d'usuari/ària o amb el nom de l'organització. [Funcionalitat prevista per a 2018Q1-3, AjB-Lot1]
+Participants can register with the platform as members of one or several organisations/collectives. Once the organisation and membership status have been verified, participants can carry out actions (make proposals or submit comments, etc.), with their user or organisation name. [Function expected for 2018Q1-3, AjB-Lote1]
 
-Els grups d'usuaris també poden gestionar permisos d'usuari i administració assignats a grups, així com espais de debat privats o compartir informació entre el grup d'usuaris, per exemple, que va assistir a una trobada presencial. [Funcionalitat prevista per a 2018Q1-3, AjB-Lot1]
+User groups can also manage user and administrative accesses assigned to groups, as well as private debate spaces or share information between user groups, for example, who attended an in-person meeting. [Function expected for 2018Q1-3, AjB-Lote1]
+
