@@ -1,51 +1,52 @@
-# 4. Participants
+# 4	Participantes
 
-## 4.1. Registre i verificació
+## 4.1	Registro y verificación
 
-Qualsevol visitant pot accedir a tot el contingut de web directament. Tanmateix, per poder fer propostes o comentaris cal **registrar-s’hi**. El registre es pot fer **directament** a la plataforma o mitjançant passarel·les amb altres **xarxes socials** (Facebook, Twitter o Google+). El registre directe exigeix associar un compte de correu electrònic i una contrasenya al compte d'usuari/ària.
+Cualquier visitante puede acceder a todo el contenido de la web directamente. Sin embargo para poder hacer propuestas o comentarios deben realizar un **registro**. El registro se puede hacer **directamente** en la plataforma o mediante pasarelas con otras **redes sociales** (Facebook, Twitter o Google+). El registro directo exige asociar una cuenta de correo electrónico y una contraseña a la cuenta de usuario/a.
 
-Les funcionalitats orientades a la decisió (suports, vots, etcètera) requereixen **verificació**. El principal sistema de verificació és contra el padró municipal o una altra base de dades de persones registrades, amb qui Decidim es comunica via API. També es pot verificar **via SMS**, o amb un **codi** especial enviat per carta o altres mitjans, i des del tauler d'administració es pot **verificar manualment** una persona participant [funcionalitats previstes per a 2018Q1-3, AjB-Lot1].
+Las funcionalidades orientadas a la decisión (apoyos, votos, etc.) requieren **verificación**. El principal sistema de verificación es contra el padrón municipal u otra base de datos de personas registradas con las que Decidim se comunica vía API. También se puede verificar **vía SMS**, o con un **código** especial enviado por carta u otros medios, y desde el panel de administración se puede **veri****ficar manualmente** a una persona participante [funcionalidades previstas para 2018Q1-3, AjB-Lote1].
 
-A més de la verificació, les persones participants poden sol·licitar **oficialitzar** el seu nom d'usuari/ària. Un cop oficialitzat, el seu nom d'usuari/ària apareixerà amb un símbol que permet reconèixer a tercers que aquest nom d'usuari/ària correspon a qui diu ser.
+Además de la verificación, las personas participantes pueden solicitar **oficializar** su nombre de usuaria/o. A partir de la oficialización su nombre de usuaria/o aparecerá con un símbolo que permite reconocer a terceros que ese nombre de usuaria/o corresponde a quien dice ser.
 
-**Associacions o organitzacions** la identitat de les quals pugui verificar-se d'alguna manera també poden registrar-se i verificar-se. La verificació donarà automàticament estatus d'oficialització.
+**Asociaciones u organizaciones** cuya identidad pueda verificarse de algún modo también pueden registrarse y verificarse. La verificación dará automáticamente estatus de oficialización.
 
-## 4.2. Registre públic d'activitat d'administració
+## 4.2	Registro público de actividad de administración
 
-La verificació manual de participants, així com altres accions d'administració, introdueixen vulnerabilitat o possibilitats d'usos perversos per part de les persones administradores de la plataforma. Per això, Decidim inclou un **registre públic de les activitats d'administració** per poder auditar de manera pública i transparent les accions esmentades.
+La verificación manual de participantes, así como otras acciones de administración, introducen vulnerabilidad o posibilidades de usos perversos por parte de las personas administradoras de la plataforma. Para ello Decidim incluye un **registro público de las actividades de administración** para poder auditar de manera pública y transparente dichas acciones.
 
-## 4.3. Perfil d'usuari i configuració personal
+## 4.3	Perfil de usuario y configuración personal
 
-Existeix una **pàgina de perfil d'usuari** en la qual les persones participants poden **modificar les seves dades** (com el compte de correu electrònic, contrasenya, etcètera), pujar i habilitar una imatge d’**avatar**, configurar les notificacions i donar-se de baixa.
+Existe una **página de perfil de usuario** en la que las personas participantes pueden realizar **modificaciones de sus datos** (como la cuenta de correo electrónico, contraseña, etc.), subir y habilitar una imagen de **avatar**, configurar las notificaciones, y darse de baja.
 
-La pàgina de perfil d'usuari permet també a participants definir el seu **perfil enriquit** d'interessos i habilitats, de manera voluntària i escollint el grau de visibilitat de la informació esmentada. Això permet rebre notificacions personalitzades o el *matching* per a col·laboracions [funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+La página de perfil de usuario permite también a participantes definir su **perfil enriquecido** de intereses y habilidades, de manera voluntaria y escogiendo el grado de visibilidad de dicha información. Esto permite recibir notificaciones personalizadas o el matching para colaboraciones [funcionalidad prevista para 2018Q1-3, AjB-Lote1].
 
-## 4.4. Seguiment i notificacions
+## 4.4	Seguimiento y notificaciones
 
-Les persones participants reben **notificacions automàtiques** dels continguts que han creat: respostes a comentaris i comentaris a les seves propostes, així com dels resultats de les seves propostes (si han estat acceptades o rebutjades).
+Las personas participantes reciben **notificaciones automáticas** de los contenidos que han creado: respuestas a comentarios y comentarios a sus propuestas, así como de los resultados de sus propuestas (si han sido aceptadas o rechazadas).
 
-A més de les notificacions automàtiques, una persona participant pot decidir **seguir qualsevol element** del sistema (altres propostes, resultats, processos, assemblees, iniciatives, grups o usuaris, etcètera) i rebre notificacions [funcionalitat prevista per a 2017Q3, GenCat].
+Además de las notificaciones automáticas una persona participante puede decidir **seguir cualquier elemento** del sistema (otras propuestas, resultados, procesos, asambleas, iniciativas, grupos o usuarios, etc.) y recibir notificaciones [funcionalidad prevista para 2017Q3, GenCat].
 
-## 4.5. Comunicació entre participants
+## 4.5	Comunicación entre participantes
 
-És possible enviar **missatges directes** a participants a través de la plataforma, i es rebrà una notificació per correu electrònic [funcionalitat prevista per a 2017Q3, AjB].
+Es posible enviar **mensajes directos** a participantes a través de la plataforma, recibiendo una notificación por correo electrónico [funcionalidad prevista para 2017Q3, AjB].
 
-També es poden fer **mencions** (en els comentaris) a qualsevol usuari/ària registrat/ada, i aquest/a rebrà automàticament una notificació. [funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+También se pueden realizar **menciones** (en los comentarios) a cualquier usuaria/o registrada/o y recibirá automáticamente una notificación. [funcionalidad prevista para 2018Q1-3, AjB-Lote1].
 
-## 4.6. Engagement
+## 4.6	Engagement
 
-Decidim compta amb una sèrie de funcionalitats orientades a ludificar la plataforma, amb l'objectiu **d'atreure i mantenir interessats un nombre creixent de participants**, així com promoure pràctiques que potenciïn la qualitat democràtica i la intel·ligència col·lectiva en la participació [el sistema de ludificació està previst per a 2018Q1-3, AjB-Lot1].
+Decidim cuenta con una serie de funcionalidades orientadas a *gamificar* la plataforma, con el objetivo de **atraer y mantener interesadas a un número creciente de participantes**, así como promover prácticas que potencien la calidad democrática y la inteligencia colectiva en la participación [el sistema de gamificación está previsto para 2018Q1-3, AjB-Lote1]. 
 
-El sistema de ludificació inclou dues modalitats, una de centrada en les persones usuàries i una altra de centrada en les propostes.
+El sistema de gamificación Incluye dos modalidades, una centrada en las personas usuarias y otra centrada en las propuestas.
 
-* La modalitat **centrada en els usuaris** incorpora un **sistema de punts** basats en diferents criteris (grau de detall del seu perfil d'usuari, nombre d'invitacions a altres persones a la plataforma, nombre de propostes realitzades i comentades, nombre de comentaris, nombre de suports obtinguts, nombre de seguidors, etcètera).
+* La modalidad **centrada en los usuarios** incorpora un **sistema de puntos** basados en diferentes criterios (grado de detalle de su perfil de usuario, número de invitaciones a otras personas a la plataforma, número de propuestas realizadas y comentadas, número de comentarios, número de apoyos obtenidos, número de seguidores, etc.)
 
-La combinació d'aquests i altres indicadors serveix per generar recorreguts de ludificació per a cada usuari i definir fites com ara: persona més participativa del districte, lideratge en debats, etcètera.
+La combinación de éstos y otros indicadores sirve para generar recorridos de gamificación para cada usuario y definir hitos como: persona más participativa del distrito, liderazgo en debates, etc.
 
-* La ludificació **centrada en propostes/iniciatives** permet als seus promotors, signants i seguidors dinamitzar-ne la interacció incorporant algunes **mètriques** (nombre de vegades que la proposta és compartida en xarxes socials, grau de controvèrsia (nombre de comentaris positius i negatius), qualitat de la deliberació (profunditat de l'arbre de comentaris), quantitat de visites rebudes, etcètera.
+* La gamificación **centrada en propuestas/iniciativas** permite a sus promotores, firmantes y seguidores dinamizar la interacción con las mismas incorporando algunas **métricas** (número de veces que la propuesta es compartida en redes sociales, grado de controversia (número de comentarios positivos y negativos), calidad de la deliberación (profundidad del árbol de comentarios), cantidad de visitas recibidas, etc.
 
-## 4.7. Grups d'usuaris
+## 4.7	Grupos de usuarios
 
-Les persones participants poden registrar-se a la plataforma com a membres d'una o diverses organitzacions/col·lectius. Una vegada verificada l'organització i la condició de membre, la participant pot realitzar accions (fer propostes, realitzar comentaris, etcètera) amb el seu nom d'usuari/ària o amb el nom de l'organització. [Funcionalitat prevista per a 2018Q1-3, AjB-Lot1]
+Las personas participantes pueden registrarse en la plataforma como miembros de una o varias organizaciones/colectivos. Una vez verificada la organización y la condición de miembro, la participante puede realizar acciones (hacer propuestas, realizar comentarios, etc.) con su nombre de usuaria/o o con el nombre de la organización. [Funcionalidad prevista para 2018Q1-3, AjB-Lote1]
 
-Els grups d'usuaris també poden gestionar permisos d'usuari i administració assignats a grups, així com espais de debat privats o compartir informació entre el grup d'usuaris, per exemple, que va assistir a una trobada presencial. [Funcionalitat prevista per a 2018Q1-3, AjB-Lot1]
+Los grupos de usuarios también pueden gestionar permisos de usuario y administración asignados a grupos, así como espacios de debate privados o compartir información entre el grupo de usuarios, por ejemplo, que asistió a un encuentro presencial. [Funcionalidad prevista para 2018Q1-3, AjB-Lote1]
+
