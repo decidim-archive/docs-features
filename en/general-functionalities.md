@@ -1,83 +1,85 @@
-# 5. Funcionalitats generals
+# 5	General functionalities 
 
-A continuació s’expliquen una sèrie de funcionalitats i característiques generals de la plataforma que no queden recollides en els espais o components ni en les funcionalitats directament associades a participants.
+Below, we will outline a series of the platform’s general functions and features which do not appear in the spaces or components, or in the functions directly associated with participants.
 
-## 5.1. Instal·lació i configuració
+## 5.1	Installation and settings
 
-Decidim **s'instal·la fàcilment** a través de la línia d'ordres a qualsevol servidor GNU/Linux amb els següents serveis instal·lats: PostgreSQL 9.4+, Ruby 2.4.1, NodeJS amb yarn (JavaScript dependency manage), ImageMagick i PhantomJS. Un script automàtic d'instal·lació permet desplegar tot el sistema de dependències, llibreries, bases de dades i altres serveis requerits de manera automàtica a Heroku o Docker [funcionalitat prevista per al 2018].
+Decidim **can be easily installed **using the command prompt in any GNU/Linux server with the following installed services: PostgreSQL 9.4+, Ruby 2.4.1, NodeJS with yarn (JavaScript dependency manage), ImageMagick and PhantomJS. An automatic installation script allows you to deploy the whole dependency system, libraries, databases and other automatically required services in Heroku or Docker [function expected for 2018].
 
-La **configuració** del portal permet una **personalització** amb els camps següents, que s'omplen en un formulari des del tauler d'administració: Nom del portal, perfils de xarxes socials (Twitter, Facebook, Instagram, Youtube, Github), descripció breu, text de benvinguda, idioma per defecte, imatge de portada, logotip de l'organització, favicon, prefix de referència (identificador únic que s'aplicarà als elements del portal) i URL de l'organització.
+The portal’s **settings** are **customisable **in the following fields that are filled out on a form from the administration panel: Name of the portal, social network profiles (Twitter, Facebook, Instagram, YouTube, Github); brief description; welcome text; default language; home image; the organisation’s logo; favicon, reference prefix (unique identifier that will apply to the portal’s elements) and the organisation’s URL.
 
-## 5.2. Integració amb altres serveis i compatibilitat/creació de serveis addicionals
+## 5.2	Integration with other services and compatibility/creation of additional services
 
-Decidim es pot integrar fàcilment amb els serveis següents, que poden instal·lar-se o configurar-se juntament amb Decidim:
+Decidim can be easily integrated with the following services that can be installed or configured with Decidim:
 
-* **OpenStreetMap**: per mostrar esdeveniments i propostes geolocalitzades
+* **OpenStreetMap**: to show events and proposals with geo-location
 
-* **Piwik**: analítica de visites al web
+* **Piwik**: website traffic analysis
 
-* **Pad**: pissarres d'escriptura col·laborativa en temps real (tecnologia per determinar) [Funcionalitat prevista per a 2018Q1-3 AjB-Lot1]
+* **Pad**: collaborative real-time writing boards (technology to be determined) [Function expected for 2018Q1-3 AjB-Lote1]
 
-* **Identitat i signatura digital**: integració amb el sistema de gestió d'identitat digital OAuth2, sistemes basats en blockchain i sistemes de gestió d'identitat i signatura digital institucionals reconeguts [Funcionalitat prevista per a 2018Q1-3 AjB-Lot1].
+* **Digital identity and signature**: integration with OAuth2 digital-identity management system, systems based on blockchain and recognised institutional digital identity and signature management systems [Function expected for 2018Q1-3 AjB-Lote1].
 
-* **Sistema distribuït d’arxius**: Difusió o rèplica de propostes o altres elements de la plataforma en sistema distribuïts d’arxius (tipus blockchain o IPFS) [Funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+* **Distributed filing system**: Disseminating or copying proposals or other elements from the platform in a distributed filing system (blockchain or IPFS type) [Function expected for 2018Q1-3, AjB-Lote1].
 
-* **Microblogging**: integració/compatibilitat amb un protocol/servei estandarditzat i obert de microblogging tipus GNU Social o StatusNet per a l'activitat de participants (propostes, comentaris i missatges) [Funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+* **Microblogging**: integration/compatibility with a standardised and open GNU Social or StatusNet type microblogging protocol/service for participants’ activities (proposals, observations and messages) [Function expected for 2018Q1-3, AjB-Lote1].
 
-Decidim genera automàticament els serveis següents, a més d'aquells pels quals es pot navegar mitjançant el web o accedir-hi mitjançant l'API:
+Decidim automatically generates the following services besides the ones that can be browsed on the website or accessed through an API: 
 
-* **SMTP**: enviament de correus electrònics.
+* **SMTP**: sending emails.
 
-* **Calendari**: integració o compatibilitat amb sistemes de gestió de calendaris i creació i actualització automàtica de calendaris d'esdeveniments, etcètera [Funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+* **Calendar**: integration and compatibility with calendar-management systems and automatic creation and updating of events calendars, etc. [Function expected for 2018Q1-3, AjB-Lote1].
 
-## 5.3. Multitinença
+## 5.3	Multitenancy 
 
-**Múltiples tinences** de la plataforma poden servir-se partint d'una sola instal·lació. En altres paraules, una sola instal·lació de Decidim permet desplegar tants portals com es vulgui amb una configuració específica per a cada una de les instàncies. D'aquesta manera, una organització pot crear portals de participació per a suborganitzacions seves, o diverses organitzacions poden compartir servidor i reduir els costos de manteniment dels seus portals.
+The multitenancy of the platform** **can be used on the basis of a single installation. In other words, a single installation of Decidim allows you to deploy as many portals as you want under specific settings for each of the levels. That way an organisation can create participatory portals for its sub-organisations or various organisations can share a server and reduce the maintenance costs of its portals.
 
-## 5.4. Multiidioma
+## 5.4	Multi-language
 
-Decidim és una plataforma **multiidioma**. Durant la instal·lació es configuren els idiomes disponibles. Els menús, formularis d'administració i, en general, els textos fixos de la plataforma estan disponibles en diversos idiomes (català, castellà, eusquera, italià, francès, holandès i suomi). Un sistema de **traducció col·laborativa** a [https://crowdin.com/project/decidim](https://crowdin.com/project/decidim) facilita la incorporació d'idiomes nous a la plataforma.
+Decidim is a **multi-language** platform. Its available languages will be configured during its installation. Menus, administrative forms and, generally, the platform's fixed texts are available in several languages (Spanish, Catalan, Basque, Italian, French, Dutch and Finnish). A **collaborative translation **system in [https://crowdin.com/project/decidim](https://crowdin.com/project/decidim) enables new languages to be incorporated into the platform. 
 
-Pel que fa al contingut, una vegada fixats els idiomes oficials de la instància durant la instal·lació, tots els continguts que es creen des del tauler d'administració tenen l'opció de generar-se en els idiomes esmentats. El tauler d'administració permet la **gestió de continguts en diferents idiomes** a través de pestanyes. El contingut generat per les persones usuàries es mostra a la plataforma en un sol idioma (l'escollit per la persona participant a través del selector d'idiomes en la part superior dels menús o automàticament a través de la configuració lingüística del seu navegador).
+As for content, once the official languages of the level have been set during the installation, all the content that is created from the administration panel has the option of being generated in these languages. The administration panel allows **content to be managed in several languages** through tabs. The content generated by users is displayed on the platform in a single language (the one chosen by the participant through the language selector in the upper part of the menus or automatically through its browser's language settings).
 
-## 5.5. Estadístiques, dades obertes i baixades
+## 5.5	Statistics, open data and downloads
 
-A més de la interfície de programació d'aplicacions (API) que proporciona accés a dades públiques de manera automàtica, a la portada de Decidim s’hi troba un **quadre d'estadístiques generals**, amb els següents camps: nombre de participants, processos, proposades, resultats, trobades, comentaris i vots.
+Besides the application programming interface (API) which automatically provides access to public data, Decidim’s home page features a **general statistics table** with the following fields: number of participants, processes, proposals, results, meetings, observations and votes.
 
-Un altre **quadre d'estadístiques de cada procés participatiu **mostra el nombre de trobades, propostes, vots i resultats d'un procés determinat.
+Another **statistics table for each participatory process** shows the number of meetings, proposals, votes and results of a specific process.
 
-Des del tauler d'administració es poden **exportar les propostes, resultats i comentaris **d'un procés de participació a format CSV i JSON i respostes a les enquestes per al seu tractament o integració amb altres sistemes de gestió. Les persones participants poden **baixar els resultats d'un procés participatiu i el seu grau d'execució** mitjançant un fitxer CSV.
+The administration panel lets you **export the proposals, results and observations **of a participatory process in CSV and JSON format and responses to surveys for processing and/or integration with other management systems. Participants can **download the results of a participatory process and the extent of its implementation **through a CSV file.
 
-Decidim disposa també d'un **mòdul de visualització de dades**, tant a escala general de la plataforma com de manera específica (mostrant dades d'un espai participatiu determinat) [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod4]. Entre els gràfics que es mostren hi ha els següents:
+Decidim also has a **data-display component **at its disposal on the platform’s general level and on a specific level (showing data from a specific Participatory Space ) [function expected for 2018Q1, AjB-Lote2Mod4]. The following are included among the graphics that are displayed:
 
-* **Gràfic interactiu** de línia temporal amb l'evolució dels comptadors dels diferents components.
+* **Interactive graphics **in the form of a time line showing the development of the various components’ counters.
 
-* **Mapa de calor** del total de trobades, propostes o altres continguts geolocalitzables.
+* **Heat map** of all the meetings, proposals or other content with geo-location tags.
 
-* **Diagrames interactius **(de barres, circulars o de sectors) amb els resultats d'un procés (import de cada un dels projectes de pressupostos participatius, filtre per categories i estat de les propostes —seleccionades sí o no—, etcètera).
+* **Interactive diagrams **(bar or pie charts) with the results of a process (amounts of each of the participatory budget projects, filter by category and status of the proposals - whether selected or not, etc.)
 
-Totes aquestes visualitzacions venen acompanyades d'una **opció de baixada de les dades** en format CSV [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod4].
+All of these displays are accompanied by an **option for downloading data **in CSV format [function expected for 2018Q1, AjB-Lote2Mod4]. 
 
-## 5.6. API, Disseny web adaptable i aplicació mòbil
+## 5.6	API, adaptable website design and mobile app
 
-Decidim disposa d’una interfície de programació d'aplicacions o API que és un conjunt de crides a serveis i dades de forma independent de la interfície web de Decidim. Això permet a tercers desenvolupar serveis sobre la plataforma, alliberar dades de manera automàtica o desenvolupar noves interfícies o integració d'altres serveis amb Decidim.
+Decidim has an application programming interface or API which is a series of independent service calls and data from Decidim's website interface. This allows third parties to develop services on the platform, automatically release data or develop new interfaces, or integrate other services with decidim.
 
-L'API ve acompanyada d'una **documentació** i una **ontologia formal** de participació [funcionalitat prevista per a 2018Q1-3, AjB-Lot1]
+The API comes with **documents** and a **formal participatory ontology** [function expected for 2018Q1-3, AjB-Lote1]
 
-El **disseny** web de Decidim és completament **adaptable** (*responsive*), seguint la filosofia de disseny *mobile-first* (primer es dissenya per al mòbil, després s'expandeix per a sistemes d'escriptori i tauletes tàctils).
+Decidim's website **design** is completely **adaptable** (*responsive*), using *mobile-first* design philosophy (designed first for mobiles and later extended to desktop systems and tablets).
 
-Tant el disseny web com l'API faciliten el desenvolupament d'aplicacions mòbils per a Decidim; està previst el desenvolupament d'una **app mòbil** per a finals del 2018 [AjB].
+Both the website's design and the API enable the development of mobile apps for Decidim, and a **Mobile App** is expected to be developed for the end of 2018 [AjB].
 
-## 5.7. Sistemes de classificació de continguts
+## 5.7	Content-classification systems
 
-Pel que fa a la classificació de continguts, Decidim permet diferenciar i configurar: àmbits, categories i etiquetes (o *tags*).
+As for content classification, the following to be distinguished and adjusted in Decidim: fields, categories and labels (or tags).
 
-Els **àmbits** són generals a tota la plataforma i es divideixen en els de tipus **territorial** i **temàtic**. Els àmbits territorials, una vegada definits, permeten classificar elements dels espais territorialment (p. ex. si un procés, o un òrgan o una iniciativa afecta a un districte o dos, a tota la ciutat, a una regió o a un país, depenent de l'organització). Igualment, els àmbits temàtics es defineixen per a tota la plataforma i permeten classificar els diferents elements dels espais de participació [funcionalitat prevista per a 2017Q4, GenCat].
+**Fields** are generic throughout the platform and divided up into **territorial** and **topic **types. Territorial areas, once defined, allow the spaces’ elements to be classified by territory (e.g. if a process or a body or an initiative affects a district or two, the entire city, a region or country, depending on the organisation). Topic areas are likewise defined for the entire platform and allow classification of the various elements of the participatory spaces [function expected for 2017Q4, Gencat].
 
-Les **categories i subcategories** serveixen per classificar continguts dins dels diferents espais i es defineixen per a cada una de les instàncies dels espais. Així, per exemple, un procés de participació pot incloure diverses categories i subcategories (les defineix l'administrador/a del procés) i les trobades, enquestes, propostes o altres components del procés es poden classificar sota aquestes categories.
+**Categories and subcategories** are used for classifying content within the various spaces and are defined for each of the levels of the spaces. So, for example, a participatory process may include several categories and subcategories (the process administrator defines them) whereas the process’ meetings, surveys, proposals and other components can be classed under these categories.
 
-A diferència dels àmbits i les categories, les **etiquetes** o *tags* són transversals, són lliurement definides per les persones participants i es poden aplicar a qualsevol instància o component. Des del tauler d'administració es poden crear etiquetes, niar-les i definir-les. Un sistema de suggeriment d'etiquetes permet a les persones que participen escollir etiquetes similars a les que estan proposant per etiquetar qualsevol element de la plataforma. Es podrà navegar pels elements per etiquetes i mostrar les etiquetes més populars [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod1].
+In contrast to fields and categories, **labels** or tags are cross-cutting and freely defined by participants and can apply to any level or component. Labels can be created, embedded and defined in the administration panel. A label-suggestion system allows the people taking part to choose labels similar to the ones that are they are suggesting for labelling any of the platform's elements. Elements can be browsed by labels and the most popular labels displayed [function expected for 2017Q4, AjB-Lote2Mod1].
 
-## 5.8. Sistema d'ajuda contextual, tests d'usabilitat i valoració
+## 5.8	Contextual help system, usability and evaluation tests
 
-Decidim inclou un sistema **d'ajudes contextuals editables** per guiar persones participants i administratives en l'ús de la plataforma. Igualment, inclou un sistema que permet fer **experiments d'usabilitat** amb tests i estadístiques d'ús, així com també **enquestes de valoració automàtiques** a les participants de cara a identificar errors d'usabilitat, de procediments de participació i millorar la qualitat democràtica i d'experiència del programari [funcionalitat prevista per a 2018Q1-3, AjB-Lot1].
+Decidim includes **editable contextual help** for guiding individual and administrative participants in using the platform. It also includes a system that allows **usability experiments **to be carried out with tests and usage statistics, as well as **automatic evaluation surveys **to be conducted on participants for the purposes of identifying usability and participatory-procedure errors and improving the democratic quality experience of the software [Function expected for 2018Q1-3, AjB-Lote1].
+
+

@@ -1,85 +1,87 @@
-# 2. Espais de participació
 
-Els espais de participació defineixen els canals o vies de participació principals. Es mostren al menú superior principal de la plataforma.
+# 2	Participatory spaces
 
-La lògica central de l'estructura del Decidim és que els **components es combinen en espais de participació**. Existeixen diferents tipus d'espais (iniciatives, processos, consultes i assemblees) i diferents instàncies dins de cada tipus (un procés d'eleccions i un altre de pressupostos participatius, un òrgan de consell de barri i un altre de treballadors, una iniciativa per canviar una llei i una altra per incloure alguna cosa en l'ordre del dia d'un ple, etcètera).
+Participatory spaces define the main participatory channels or routes. They are displayed in the platform's main upper menu. 
 
-## 2.1. Processos
+The basic logic behind Decidim's structure is that **components work together in the participatory spaces**. There are different types of spaces (initiatives, processes, consultations and assemblies) and various instances within each type (a process for an election and another for participatory budgets, council body for neighbourhoods and another for workers, an initiative to call for a change in legislation and another for something to be included in a plenary meeting agenda, etc.).
 
-Els processos de participació requereixen omplir un formulari de **configuració** general amb els camps següents: Títol o nom del procés, nom curt per a l'URL, etiqueta (*hashtag*, serveix de referència per a la comunicació en xarxes socials), descripció curta, descripció llarga, imatge de portada, imatge de bàner, data de començament i acabament, àmbit, grup promotor (responsable del procés participatiu en l’àmbit polític, pot ser l'ajuntament o un grup format per tècnics/polítics de l'ajuntament i associacions o altres entitats), a qui va dirigit, objecte del procés de participació i estructura participativa. El procés de participació permet incorporar **documents adjunts**.
+## 2.1	Processes
 
-Els processos de participació estan dividits en **fases** (p. ex. 1. fase d'informació i convocatòria, 2. fase de diagnòstic, 3. fase de propostes, 4. fase de priorització, 5. fase de decisió, 6. fase d'avaluació i 7. fase de seguiment de resultats). Cada fase inclou els següents camps de configuració: títol, descripció, data d'inici, data fi.
+Participatory processes require a general **configuration** form with the following fields: Title or name of the process; short name for URL; hash tag (used as a reference for communications on social networks); short description; long description; home page image; banner image; date of start and finish; field; promoter group (responsible for the participatory process on a political level, may be the local authority or a group made up of the authority’s experts/politicians and associations and other organisations); who it is aimed at; goal of the participatory process and participatory structure. The participatory process allows **accompanying documents** to be added. 
 
-En els processos també es poden mostrar **anuncis o textos destacats**, tant en la portada com en l'encapçalament de cada component (propostes, debats, etcètera). Es poden configurar missatges diferents en funció de la fase que es troba activa.
+Participatory processes are divided into **stages** (e.g. 1. Information and convening stage; 2. diagnostics stage; 3. proposals stage; 4. prioritisation stage; 5. decision stage; 6. evaluation stage and 7. results-monitoring stage). Each stage includes the following configuration fields: title, description, start date, end date. 
 
-Un **configurador de processos de participació** permet activar i desactivar fases i els seus components de manera senzilla. El configurador de processos de Decidim és una de les seves funcionalitats més potents, aquest permet total flexibilitat en el disseny dels processos participatius segons les diferents realitats i formes de participació ciutadana.
+**Highlights of announcements or texts** may also be displayed in the processes, both on the home page and in the heading of each component (proposals, discussions and debates, etc.) Different messages can be configured depending on the particular stage of a process. 
 
-La funcionalitat de **grups de processos **permet agrupar diversos processos, per exemple per a pressupostos participatius de districtes o barris diferents.
+A **participatory process configuration tool** enables the simple activation and deactivation of stages and their components. Decidim's process configuration tool is one of its most powerful functions, enabling total flexibility in designing participatory processes according to the various realities and forms of citizen participation.
 
-Els processos de participació poden estar en un dels **estats de procés** següents: 0) publicat o no publicat, 1) obert (ha començat), 2) tancat (ha acabat el procés de participació però els seus resultats són encara en via d'execució), 3) finalitzat (tant el procés com els seus resultats ja estan acabats) i 4) futur (encara no ha començat) [funcionalitat prevista per a 2017Q3, GenCat].
+The function of **process groups **enables various processes to be grouped, such as by the Participatory Budgets of different districts or neighbourhoods.
 
-És possible **marcar com destacat **un procés (augmentant-ne la visibilitat a la portada).
+Participatory processes may have one of the following **process statuses**: 0) published or unpublished; 1) open (started); 2) closed (the participatory process has ended but its results are still under way; 3) finished (both the process and its results phase are complete) and 4) future (has not yet started) [function expected for 2017Q3, GenCat]. 
 
-També hi ha la possibilitat de **copiar processos de participació** des del tauler d'administració. Aquesta funcionalitat permet dissenyar processos model i fer-ne una còpia per configurar alguns detalls dels nous processos i no haver de crear-los del no-res.
+A process can be **highlighted **(which increases its visibility on the homepage). 
 
-## 2.2. Assemblees
+There is also the possibility to **copy participatory processes **from the administration panel. This function enables process models to be designed and copied so that certain details can be configured within the new processes, avoiding the need to create them from scratch.
 
-Decidim permet la **creació i configuració d'assemblees** de participació o govern (òrgans de govern, de participació, consells, grups de treball, etcètera), entesos com a grups estructurats de participants que, a títol individual o representatiu, es reuneixen periòdicament, amb la capacitat de crear propostes i prendre decisions.
+## 2.2	Assemblies
 
-La **secció d'assemblees** permet veure un llistat complet de totes les assemblees que s'activen i es configuren des del tauler d'administració. La **configuració** bàsica exigeix determinar, per a cada òrgan, els camps següents: nom, imatge, àmbit (global, territorial o sectorial), funció de l'òrgan (objecte d'actuació), tipus d'òrgan (govern, executiu, consultiu/assessor, participatiu, grup de treball, comissió...), data de creació, creat per iniciativa de (Ajuntament, ciutadans o altres), durada (indefinida o determinada; en aquest cas, data d'acabament), data d'inclusió en el Decidim, data de tancament i motiu, com s'organitza (funcions, competències...), composició, si és possible adherir-s’hi i com fer-ho, la forma de selecció els membres, tipus/funció dels membres dins de l'òrgan, composició de grups de treball interns com a comissió de seguiment o comissió assessora), característiques de l'òrgan, xarxes socials de l'òrgan (nom de la xarxa social i enllaç), i properes trobades de l'òrgan.
+Decidim allows the **creation and configuration **of participatory or government **assemblies** (government or participatory bodies; councils; work groups etc.,) defined as structured participant groups which, whether on an individual or representative level, meet up periodically, with the authority to make proposals and decisions. 
 
-* **Convocatòries de reunions**: tramesa automàtica de convocatòria, creació col·laborativa de l'ordre del dia, inscripció a assistència. Per a un llistat complet de funcionalitats, vegeu el component "trobades" [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod2].
+The **assemblies section** allows you to see a full list of all of the assemblies that are active and can be configured from the administration panel. The basic **settings** require the following fields to be completed for each body: name; image; field (global, territorial or sectoral); body’s function (purpose of action); type of body (government, executive, consultative / advisory, participatory, work group, commission etc.,); creation date; created on the initiative of (City Council, citizens or others); duration (indefinite or fixed, in the latter case, finishing date); date of inclusion in Decidim; date of closure and reason; as organised (functions; powers etc.,) composition, where it can be joined and how to do that; method of choosing members; type/ function of members within the body; composition of internal work groups as monitoring or advisory committees); the body's features; the body's social networks (name of social network and link) and the body’s next meetings.
 
-* **Característiques de l'assemblea**: oberta, pública, transparent, o altres característiques del grau de participació que permet l'assemblea [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+* **Convening meetings**: the automatic facility to send meeting invitations, collaboratively create agendas, and register attendance. For a complete list of functions see the "meetings" component [function expected for 2017Q4, AjB-Lote2Mod2].
 
-* **Composició**: Permet definir la composició de l'òrgan amb més detall, fent ús dels perfils de participants associats a l'òrgan així com altres característiques. Es genera automàticament una visualització de la composició de l'òrgan a partir de la composició dels membres participants [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]:
+* **Assembly’s features**: open, public, transparent and other features regarding the level of participation that the assembly allows [function expected for 2018Q1, AjB-Lote2Mod3].
 
-    * **Tipus de membres**: President, vicepresident, secretaris, d'altres
+* **Composition:** This enables the composition of the body to be defined in greater detail, using the profiles of participants associated with the body as well as other features. A display of the body’s structure is automatically generated based on the composition of participating members [function expected for 2018Q1, AjB-Lote2Mod3]: 
 
-    * **Origen de membres**: per sorteig, elecció directa, representació d'una altra assemblea, representació de govern, etcètera.
+    * **Types of members**: Chair, deputy chair, secretaries, others
 
-    * **Grups de treball intern**: creació de subassemblees. Els grups de treball es podran relacionar amb l'òrgan a què pertanyen.
+    * **Membership origin**: by draw; direct election; representation from another assembly; government representation etc.
 
-    * **Característiques**: Obert/tancat, transparent, amb diferents permisos d'accés.
+    * **Internal work groups**: for the creation of sub-assemblies. Work groups will be able to relate to the body they belong to
 
-* **Visualització**: permet visualitzar dades internes de cada òrgan, així com relacions entre assemblees [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+    * **Features**: Open/closed; transparent; with various access permits.
 
-    * **Composició**: mostra en forma de diagrama circular la composició de l'òrgan.
+* **Display**: allows us to view internal data about each body as well as the associations between assemblies [function expected for 2018Q1, AjB-Lote2Mod3]
 
-    * **Organigrames**: mostra la jerarquia o xarxa d'assemblees i les seves relacions.
+    * **Composition**: the structure of a body is shown in the form of a circle diagram
 
-* **Mapa i calendari**: permet veure la localització de tots les assemblees en un mapa i en un calendari [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+    * **Organisation charts**: allow us to view the hierarchy or network of assemblies and their associations.
 
-* **Relació amb altres espais i components**
+* **Map and calendar**: allow us to view the location of all the assemblies on a map and calendar [function expected for 2018Q1, AjB-Lote2Mod3].
 
-    * **Relació amb processos**: les assemblees poden ser grup promotor, iniciar un procés o fer propostes dins d'un procés. La composició d'un òrgan ha de poder ser el resultat d'un procés (d'elecció de càrrecs) [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+* **Involvement with other spaces and components** 
 
-    * **Propostes i resultats**: un òrgan pot generar les seves pròpies propostes o resultats.
+    * **Involvement with processes**: assemblies can be promoter groups, start a process or make proposals within a process. A body’s composition has to be the result of a process (for electing posts) [function expected for 2018Q1, AjB-Lote2Mod3]
 
-        * Es mostra la manera en què la proposta va ser acordada (per consens, majoria, nombre de vots, etcètera). [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+    * **Proposals and results**: a body can generate its own proposals or results.
 
-    * **Trobades**: les assemblees tindran una llista associada de trobades, però algunes funcionalitats poden saltar d'una trobada al següent, com les iniciatives ciutadanes d'inclusió d'un punt en l'ordre del dia. Igualment les actes han de poder mostrar-se independentment de la trobada, com associades directament a l'òrgan [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+        * It shows how the proposal was agreed on (by consensus, majority, number of votes etc.). [Function expected for 2018Q1, AjB-Lote2Mod3]
 
-## 2.3. Iniciatives
+    * **Meetings**: assemblies will have a list of associated meetings, but some functions may jump from one meeting to another , such as citizen initiatives to be included in an agenda item. Likewise, it must be possible to view minutes separately from the meeting, as they are associated directly with the body [function expected for 2018Q1, AjB-Lote2Mod3].
 
-Les **iniciatives** estan previstes per a l'octubre de 2017 per a l'Ajuntament de Barcelona i s'integraran posteriorment a Decidim. Aquest espai de participació permet a la ciutadania fer propostes i recollir el **nombre de signatures i suports requerits** segons la seva tipologia (els diferents tipus estan definits al reglament municipal), donant lloc a l'inici del procediment administratiu per a la seva tramitació i seguiment ciutadà.
+## 2.3	Initiatives
 
-El funcionament de les iniciatives és el següent:
+**Initiatives** are expected for October 2017 for Barcelona City Council and will subsequently be integrated into Decidim. This participatory space allows citizens to make proposals and collect the **requisite number of signatures and/or endorsements** depending on type (the various types are set out in the municipal regulations), giving rise to the start of the administrative procedure for its processing and citizen monitoring.
 
-* Qualsevol persona o entitat ciutadana verificada pot crear una proposta d'iniciativa ciutadana. Hi ha **diferents tipus d'iniciatives** amb diferent nombre de suports/signatures requerits per a la seva tramitació (totes elles configurables). Des de la portada de creació d'iniciatives es pot veure la descripció de cada una de les modalitats, el nombre de signatures requerides i exemples (p. ex. vídeos explicatius).
+Initiatives have the following functions:
 
-* Per evitar duplicitats, una vegada creada una iniciativa el sistema presenta suggeriments **d'iniciatives similars** abans de continuar amb el pas següent. Una vegada descartades propostes similars es mostra el formulari específic per a cada tipus d'iniciativa, amb el nombre mínim de suports requerits. El creador disposa llavors d'una URL per convidar altres persones a sumar-s’hi i donar-hi suport. També es mostra un mapa amb els punts físics de recollida de signatures en cas que n'hi hagi.
+* Any person or citizen association can make a citizen-initiative proposal. There are **several types of initiatives** with various numbers of endorsements/signatures required for their processing (these are all configurable). From the initiative-creation home page, a description of each of the methods, the number of signatures required and examples (e.g. explanatory videos) can be viewed.
 
-* Una vegada recollit el nombre mínim de suports, la iniciativa passa a una fase de **moderació i validació tècnica**, on personal de l'Ajuntament pot realitzar diferents accions (aprovar-la, rebutjar-la o suggerir modificacions).
+* To avoid duplicates, once an initiative has been created, the system will present suggestions for **similar initiatives **before continuing with the following step. Once similar proposals have been ruled out, the specific form will be shown for each type of initiative, along with the minimum number of endorsements required. The creator then has an URL at their disposal which can be used to invite others to join in and endorse the initiative. A map is also displayed showing the locations of meeting points to collect signatures should there be any.
 
-* Es pot fer el seguiment de la iniciativa i **rebre notificacions sobre actualitzacions** d'estat, a més la persona o grup promotor de la mateixa pot enviar butlletins periòdics informatius a la resta d'usuaris de la plataforma que hagin decidit fer el seguiment a la iniciativa.
+* Once the minimum number of endorsements has been collected, the initiative will move to a **technical moderation and validation **stage, where the City Council’s staff can respond in various ways (by approving it, rejecting it or suggesting amendments).
 
-* Quan s’acaba el període establert, una iniciativa pot tenir dos estats possibles:
+* Initiatives can be monitored and **notifications received on updated **statuses, in addition to which their individual promoter or group can periodically send information newsletters to other uses of the platform who have opted to follow the initiative.
 
-    * **Rebutjada**: en cas de no aconseguir el nombre mínim de signatures es mostra el missatge "no reuneix les signatures necessàries" i es notifica al seu creador.
+* On reaching the specified end date, an initiative can have two possible states:
 
-    * **Acceptada**: en cas d'haver aconseguit les signatures o suports suficients s'accepta i s’inicia la tramitació corresponent.
+    * **Rejected**: where it fails to reach the minimum number of signatures, a message will be shown stating "does not meet the number of signatures required" and the initiative's creator will be notified.
 
-## 2.4. Consultes
+    * **Accepted**: where it has achieved a sufficient number of signatures or endorsements it will be accepted and the corresponding procedure will start.
 
-L'espai de consultes (votacions a les quals són cridades totes les persones participants de l'organització sobre preguntes específiques) permet als participants** informar-se de les consultes** futures o en curs, **debatre** sobre l'objecte de la consulta i fer el **seguiment** del resultat. També ofereix una **passarel·la a un sistema de vot electrònic** extern a Decidim però integrat en termes d'interfície i de gestió i verificació d'identitats [Funcionalitat prevista per a 2018Q2, AjB].
+## 2.4	Consultations 
+
+Consultations ( a voting procedure where all of the organisation’s participants are called to vote on specific questions) is a space that allows participants** to find out about current or prospective consultations**, **discuss and debate** the consultation’s subject area and **monitor** the results. It also provides a **gateway to an e-voting system** which is external to Decidim but integrated in the interface in order to manage and verify identities [Function expected for 2018Q2, AjB].
+
