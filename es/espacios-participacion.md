@@ -1,85 +1,86 @@
-# 2. Espais de participació
+# 2	Espacios de participación
 
-Els espais de participació defineixen els canals o vies de participació principals. Es mostren al menú superior principal de la plataforma.
+Los espacios de participación definen los principales canales o vías de participación. Se muestran en el menú superior principal de la plataforma. 
 
-La lògica central de l'estructura del Decidim és que els **components es combinen en espais de participació**. Existeixen diferents tipus d'espais (iniciatives, processos, consultes i assemblees) i diferents instàncies dins de cada tipus (un procés d'eleccions i un altre de pressupostos participatius, un òrgan de consell de barri i un altre de treballadors, una iniciativa per canviar una llei i una altra per incloure alguna cosa en l'ordre del dia d'un ple, etcètera).
+La lógica central de la estructura del Decidim es que los **componentes se combinan en espacios  de participación**. Existen diferentes  tipos de espacios (iniciativas, procesos, consultas y asambleas) y diferentes instancias dentro de cada tipo (un proceso de elecciones y otro de presupuestos participativos, un órgano de consejo de barrio y otro de trabajadores, una iniciativa para cambiar una ley y otra para incluir algo en el orden del día de un pleno, etc.).
 
-## 2.1. Processos
+## 2.1	Procesos
 
-Els processos de participació requereixen omplir un formulari de **configuració** general amb els camps següents: Títol o nom del procés, nom curt per a l'URL, etiqueta (*hashtag*, serveix de referència per a la comunicació en xarxes socials), descripció curta, descripció llarga, imatge de portada, imatge de bàner, data de començament i acabament, àmbit, grup promotor (responsable del procés participatiu en l’àmbit polític, pot ser l'ajuntament o un grup format per tècnics/polítics de l'ajuntament i associacions o altres entitats), a qui va dirigit, objecte del procés de participació i estructura participativa. El procés de participació permet incorporar **documents adjunts**.
+Los procesos de participación requieren rellenar un formulario de **configuración** general con los siguientes campos: Título o nombre del proceso, nombre corto para la url, hashtag (sirve de referencia para la comunicación en redes sociales), descripción corta, descripción larga, imagen de portada, imagen de banner, fecha de comienzo y finalización, ámbito, grupo promotor (responsable del proceso participativo a nivel político, puede ser el ayuntamiento o un grupo formado por técnicos/políticos del ayuntamiento y asociaciones u otras entidades), a quién va dirigido, objeto del proceso de participación y estructura participativa. El proceso de participación permite incorporar **documentos adjuntos**. 
 
-Els processos de participació estan dividits en **fases** (p. ex. 1. fase d'informació i convocatòria, 2. fase de diagnòstic, 3. fase de propostes, 4. fase de priorització, 5. fase de decisió, 6. fase d'avaluació i 7. fase de seguiment de resultats). Cada fase inclou els següents camps de configuració: títol, descripció, data d'inici, data fi.
+Los procesos de participación están divididos en **fases** (p.e. 1. fase de información y convocatoria, 2. fase de diagnóstico, 3. fase de propuestas, 4. fase de priorización, 5. fase de decisión, 6. fase de evaluación y 7. fase de seguimiento de resultados). Cada fase incluye los siguientes campos de configuración: título, descripción, fecha de inicio, fecha fin. 
 
-En els processos també es poden mostrar **anuncis o textos destacats**, tant en la portada com en l'encapçalament de cada component (propostes, debats, etcètera). Es poden configurar missatges diferents en funció de la fase que es troba activa.
+En los procesos también se pueden mostrar **anuncios o ****textos destacados**, tanto en la portada como en el encabezado de cada componente (propuestas, debates, etc.). Se pueden configurar mensajes diferentes en función de la fase que se encuentra activa. 
 
-Un **configurador de processos de participació** permet activar i desactivar fases i els seus components de manera senzilla. El configurador de processos de Decidim és una de les seves funcionalitats més potents, aquest permet total flexibilitat en el disseny dels processos participatius segons les diferents realitats i formes de participació ciutadana.
+Un **configurador de procesos de participación** permite activar y desactivar fases y sus componentes de manera sencilla. El configurador de procesos de Decidim es una de sus funcionalidades más potentes, éste permite total flexibilidad en el diseño de los procesos participativos según las diferentes realidades y formas de participación ciudadana.
 
-La funcionalitat de **grups de processos **permet agrupar diversos processos, per exemple per a pressupostos participatius de districtes o barris diferents.
+La funcionalidad de **grupos de procesos **permite agrupar varios procesos, por ejemplo para Presupuestos Participativos de distritos o barrios distintos.
 
-Els processos de participació poden estar en un dels **estats de procés** següents: 0) publicat o no publicat, 1) obert (ha començat), 2) tancat (ha acabat el procés de participació però els seus resultats són encara en via d'execució), 3) finalitzat (tant el procés com els seus resultats ja estan acabats) i 4) futur (encara no ha començat) [funcionalitat prevista per a 2017Q3, GenCat].
+Los procesos de participación pueden estar en uno de los siguientes **estados de proceso**: 0) publicado o no publicado, 1) abierto (ha comenzado), 2) cerrado (ha terminado el proceso de participación pero sus resultados están aún en vías de ejecución), 3) finalizado (tanto el proceso como sus resultados ya están terminados) y 4) futuro (aún no ha comenzado) [funcionalidad prevista para 2017Q3, GenCat]. 
 
-És possible **marcar com destacat **un procés (augmentant-ne la visibilitat a la portada).
+Es posible **marcar como destacado **un proceso (aumentando su visibilidad en la portada). 
 
-També hi ha la possibilitat de **copiar processos de participació** des del tauler d'administració. Aquesta funcionalitat permet dissenyar processos model i fer-ne una còpia per configurar alguns detalls dels nous processos i no haver de crear-los del no-res.
+También hay la posibilidad de **copiar procesos de participación** desde el panel de administración. Esta funcionalidad permite diseñar procesos modelo y realizar una copia de los mismos para configurar algunos detalles de los nuevos procesos y no tener que crearlos de la nada.
 
-## 2.2. Assemblees
+## 2.2	Asambleas
 
-Decidim permet la **creació i configuració d'assemblees** de participació o govern (òrgans de govern, de participació, consells, grups de treball, etcètera), entesos com a grups estructurats de participants que, a títol individual o representatiu, es reuneixen periòdicament, amb la capacitat de crear propostes i prendre decisions.
+Decidim permite la **creación y configuración **de **asambleas** de participación o gobierno (órganos de gobierno, de participación, consejos, grupos de trabajo, etc.), entendidos como grupos estructurados de participantes que, a título individual o representativo, se reúnen periódicamente, con la capacidad de crear propuestas y tomar decisiones. 
 
-La **secció d'assemblees** permet veure un llistat complet de totes les assemblees que s'activen i es configuren des del tauler d'administració. La **configuració** bàsica exigeix determinar, per a cada òrgan, els camps següents: nom, imatge, àmbit (global, territorial o sectorial), funció de l'òrgan (objecte d'actuació), tipus d'òrgan (govern, executiu, consultiu/assessor, participatiu, grup de treball, comissió...), data de creació, creat per iniciativa de (Ajuntament, ciutadans o altres), durada (indefinida o determinada; en aquest cas, data d'acabament), data d'inclusió en el Decidim, data de tancament i motiu, com s'organitza (funcions, competències...), composició, si és possible adherir-s’hi i com fer-ho, la forma de selecció els membres, tipus/funció dels membres dins de l'òrgan, composició de grups de treball interns com a comissió de seguiment o comissió assessora), característiques de l'òrgan, xarxes socials de l'òrgan (nom de la xarxa social i enllaç), i properes trobades de l'òrgan.
+La **sección de asambleas** permite ver un listado completo de todos las asambleas que se activan y configuran desde el panel de administración. La **configuración** básica exige determinar para cada órgano los siguientes campos: nombre, imagen, ámbito (global, territorial o sectorial), función del órgano (objeto de actuación), tipo de órgano (gobierno, ejecutivo, consultivo / asesor, participativo, grupo de trabajo, comisión,...), fecha de creación, creado por iniciativa de (Ayuntamiento, ciudadanos u otros), duración (indefinida o determinada, en este caso, fecha de finalización), fecha de inclusión en el Decidim, fecha de cierre y motivo, cómo se organiza (funciones, competencias,...), composición, si es posible adherirse y cómo hacerlo, la forma de selección los miembros, tipo/ función de los miembros dentro del órgano, composición de grupos de trabajos internos como comisión de seguimiento o comisión asesora), características del órgano, redes sociales del órgano (nombre de la red social y enlace), y próximos encuentros del órgano.
 
-* **Convocatòries de reunions**: tramesa automàtica de convocatòria, creació col·laborativa de l'ordre del dia, inscripció a assistència. Per a un llistat complet de funcionalitats, vegeu el component "trobades" [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod2].
+* **Convocatorias de reuniones**: envío automático de convocatoria, creación colaborativa del orden del día, inscripción a asistencia. Para un listado completo de funcionalidades ver componente "encuentros" [funcionalidad prevista para 2017Q4, AjB-Lote2Mod2].
 
-* **Característiques de l'assemblea**: oberta, pública, transparent, o altres característiques del grau de participació que permet l'assemblea [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+* **Características de la asamblea**: abierta, pública, transparente, u otras características del grado de participación que la asamblea permite [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3].
 
-* **Composició**: Permet definir la composició de l'òrgan amb més detall, fent ús dels perfils de participants associats a l'òrgan així com altres característiques. Es genera automàticament una visualització de la composició de l'òrgan a partir de la composició dels membres participants [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]:
+* **Composición**: Permite definir la composición del órgano con más detalle, haciendo uso de los perfiles de participantes asociados al órgano así como otras característicasSe genera automáticamente una visualización de la composición del órgano a partir de la composición de los miembros participantes [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3]: 
 
-    * **Tipus de membres**: President, vicepresident, secretaris, d'altres
+    * **Tipos de miembros**: Presidente, vicepresidente, secretarios, otros
 
-    * **Origen de membres**: per sorteig, elecció directa, representació d'una altra assemblea, representació de govern, etcètera.
+    * **Origen de miembros**: por sorteo, elección directa, representación de otra asamblea, representación de gobierno, etc.
 
-    * **Grups de treball intern**: creació de subassemblees. Els grups de treball es podran relacionar amb l'òrgan a què pertanyen.
+    * **Grupos de trabajo interno**: creación de sub-asambleas. Los grupos de trabajo, se podrán relacionar con el órgano al que pertenecen
 
-    * **Característiques**: Obert/tancat, transparent, amb diferents permisos d'accés.
+    * **Características**: Abierto/cerrado, transparente, con diferentes permisos de acceso.
 
-* **Visualització**: permet visualitzar dades internes de cada òrgan, així com relacions entre assemblees [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+* **Visualización**: permite visualizar datos internos de cada órgano así como relaciones entre asambleas [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3]
 
-    * **Composició**: mostra en forma de diagrama circular la composició de l'òrgan.
+    * **Composición**: muestra en forma de diagrama circular la composición del órgano
 
-    * **Organigrames**: mostra la jerarquia o xarxa d'assemblees i les seves relacions.
+    * **Organigramas**: muestra la jerarquía o red de asambleas y sus relaciones
 
-* **Mapa i calendari**: permet veure la localització de tots les assemblees en un mapa i en un calendari [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+* **Mapa y calendario**: permite ver la localización de todos las asambleas en un mapa y en un calendario [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3].
 
-* **Relació amb altres espais i components**
+* **Relación con otros espacios y componentes** 
 
-    * **Relació amb processos**: les assemblees poden ser grup promotor, iniciar un procés o fer propostes dins d'un procés. La composició d'un òrgan ha de poder ser el resultat d'un procés (d'elecció de càrrecs) [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+    * **Relación con procesos**: las asambleas pueden ser grupo promotor,  iniciar un proceso o realizar propuestas dentro de un proceso. La composición de un órgano tiene que poder ser el resultado de un proceso (de elección de cargos) [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3]
 
-    * **Propostes i resultats**: un òrgan pot generar les seves pròpies propostes o resultats.
+    * **Propuestas y resultados**: un órgano puede generar sus propias propuestas o resultados.
 
-        * Es mostra la manera en què la proposta va ser acordada (per consens, majoria, nombre de vots, etcètera). [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+        * Se muestra la manera en que la propuesta fue acordada (por consenso, mayoría, número de votos, etc.). [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3]
 
-    * **Trobades**: les assemblees tindran una llista associada de trobades, però algunes funcionalitats poden saltar d'una trobada al següent, com les iniciatives ciutadanes d'inclusió d'un punt en l'ordre del dia. Igualment les actes han de poder mostrar-se independentment de la trobada, com associades directament a l'òrgan [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+    * **Encuentros**: las asambleas tendrán una lista asociada de encuentros, pero algunas funcionalidades pueden saltar de un encuentro al siguiente, como las iniciativas ciudadanas de inclusión de un punto en el orden del día. Igualmente las actas deben de poderse mostrar independientemente del encuentro, como asociadas directamente al órgano [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3].
 
-## 2.3. Iniciatives
+## 2.3	Iniciativas
 
-Les **iniciatives** estan previstes per a l'octubre de 2017 per a l'Ajuntament de Barcelona i s'integraran posteriorment a Decidim. Aquest espai de participació permet a la ciutadania fer propostes i recollir el **nombre de signatures i suports requerits** segons la seva tipologia (els diferents tipus estan definits al reglament municipal), donant lloc a l'inici del procediment administratiu per a la seva tramitació i seguiment ciutadà.
+Las **iniciativas** están previstas para Octubre de 2017 para el Ajuntament de Barcelona y se integrarán posteriormente en Decidim. Este espacio de participación permite a la ciudadanía hacer propuestas y recoger el **número de firmas y/o apoyos requeridos** según su tipología (los diferentes tipos están definidos en el reglamento municipal), dando lugar al inicio del procedimiento administrativo para su tramitación y seguimiento ciudadano.
 
-El funcionament de les iniciatives és el següent:
+El funcionamiento de las iniciativas es el siguiente:
 
-* Qualsevol persona o entitat ciutadana verificada pot crear una proposta d'iniciativa ciutadana. Hi ha **diferents tipus d'iniciatives** amb diferent nombre de suports/signatures requerits per a la seva tramitació (totes elles configurables). Des de la portada de creació d'iniciatives es pot veure la descripció de cada una de les modalitats, el nombre de signatures requerides i exemples (p. ex. vídeos explicatius).
+* Cualquier persona o entidad ciudadana verificada puede crear una propuesta de iniciativa ciudadana. Hay **diferentes tipos de iniciativas** con diferentes número de apoyos/firmas requeridos para su tramitación (todas ellas configurables). Desde la portada de creación de iniciativas se puede ver la descripción de cada una de las modalidades, el número de firmas requeridas y ejemplos (p.e. vídeos explicativos).
 
-* Per evitar duplicitats, una vegada creada una iniciativa el sistema presenta suggeriments **d'iniciatives similars** abans de continuar amb el pas següent. Una vegada descartades propostes similars es mostra el formulari específic per a cada tipus d'iniciativa, amb el nombre mínim de suports requerits. El creador disposa llavors d'una URL per convidar altres persones a sumar-s’hi i donar-hi suport. També es mostra un mapa amb els punts físics de recollida de signatures en cas que n'hi hagi.
+* Para evitar duplicidades, una vez creada una iniciativa el sistema presenta sugerencias de **iniciativas similares** antes de continuar con el siguiente paso. Una vez descartadas propuestas similares se muestra el formulario específico para cada tipo de iniciativa, con el número mínimo de apoyos requeridos. El creador dispone entonces de una URL para invitar a otras personas a sumarse y dar apoyo. También se muestra un mapa con los puntos físicos de recogida de firmas en caso de que las haya.
 
-* Una vegada recollit el nombre mínim de suports, la iniciativa passa a una fase de **moderació i validació tècnica**, on personal de l'Ajuntament pot realitzar diferents accions (aprovar-la, rebutjar-la o suggerir modificacions).
+* Una vez recogido el número mínimo de apoyos, la iniciativa pasa a una fase de **moderación**** y validación técnica**, donde personal del Ayuntamiento puede realizar diferentes acciones (aprobarla, rechazarla o sugerir modificaciones).
 
-* Es pot fer el seguiment de la iniciativa i **rebre notificacions sobre actualitzacions** d'estat, a més la persona o grup promotor de la mateixa pot enviar butlletins periòdics informatius a la resta d'usuaris de la plataforma que hagin decidit fer el seguiment a la iniciativa.
+* Se puede realizar el seguimiento de la iniciativa y **recibir notificaciones sobre actualizaciones** de estado, además la persona o grupo promotor de la misma puede enviar boletines periódicos informativos al resto de usuarios de la plataforma que hayan decidido hacer el seguimiento a la iniciativa.
 
-* Quan s’acaba el període establert, una iniciativa pot tenir dos estats possibles:
+* Al finalizar el período establecido una iniciativa puede tener dos estados posibles:
 
-    * **Rebutjada**: en cas de no aconseguir el nombre mínim de signatures es mostra el missatge "no reuneix les signatures necessàries" i es notifica al seu creador.
+    * **Rechazada**: en caso de no conseguir el número mínimo de firmas se muestra el mensaje "no reúne las firmas necesarias" y se notifica a su creador.
 
-    * **Acceptada**: en cas d'haver aconseguit les signatures o suports suficients s'accepta i s’inicia la tramitació corresponent.
+    * **Aceptada**: en caso de haber conseguido las firmas o apoyos suficientes se acepta e inicia la tramitación correspondiente.
 
-## 2.4. Consultes
+## 2.4	Consultas 
 
-L'espai de consultes (votacions a les quals són cridades totes les persones participants de l'organització sobre preguntes específiques) permet als participants** informar-se de les consultes** futures o en curs, **debatre** sobre l'objecte de la consulta i fer el **seguiment** del resultat. També ofereix una **passarel·la a un sistema de vot electrònic** extern a Decidim però integrat en termes d'interfície i de gestió i verificació d'identitats [Funcionalitat prevista per a 2018Q2, AjB].
+El espacio de consultas (votaciones a las que son llamadas todas las personas participantes de la organización sobre preguntas específicas) permite a los participantes** informarse de las consultas** futuras o en curso, **debatir** sobre el objeto de la consulta y realizar el **seguimiento** del resultado. También ofrece una **pasarela a un sistema de voto electrónico** externo a Decidim pero integrado en términos de interfaz y de gestión y verificación de identidades [Funcionalidad prevista para 2018Q2, AjB].
+
