@@ -1,9 +1,8 @@
 **Decidim Team**
 
-**Direcció de Recerca, Desenvolupament i Innovació**
+**Directorate for Research, Development and Innovation**
 
-**Decidim Team**
- 	 	
+*Councellorship for Participation and Districtes*
 
 Decidim's functionalities and features	
 

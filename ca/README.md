@@ -1,9 +1,8 @@
-**Decidim Team**
+**Equip Decidim**
 
 **Direcció de Recerca, Desenvolupament i Innovació**
 
 *Regidoria de Participació i Districtes*
-
 
 Funcionalitats i característiques de Decidim
 

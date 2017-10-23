@@ -1,10 +1,17 @@
-**Decidim Team**
+**Equipo Decidim**
 
-**Direcció de Recerca, Desenvolupament i Innovació**
+**Dirección de Investigación, Desarrollo e Innovación**
 
-*Regidoria de Participació i Districtes*
+*Regidoría de Participación y Distritos*
 
-	 	 	
+Funcionalidades y características de Decidim
+
+Roadmap 2017-2018
+
+v1.0
+
+04/09/2017
+	
 # Metadatos
 
 <table>
