@@ -12,8 +12,6 @@ v.1.0
 
 04/09/2017
 
-[[TOC]]
-
 # Metadata
 
 <table>
