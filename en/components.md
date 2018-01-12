@@ -102,7 +102,7 @@ The surveys component allows results to be mapped out, processed and displayed f
 
 ## 3.10	In-person meetings
 
-This component enables users to convene meetings, **add them to a calendar with geo-location**, upload **meeting minutes **, **debate**, create **proposals associated **with meetings (stating the type of collective endorsement for the proposal), record the **number** of participants, upload **photos** of the meeting and **categorise** the meeting within a space.
+This component enables users to convene meetings, **add them to a calendar with geo-location**, upload **meeting minutes**, **debate**, create **proposals associated **with meetings (stating the type of collective endorsement for the proposal), record the **number** of participants, upload **photos** of the meeting and **categorise** the meeting within a space.
 
 The configuration **settings** for meetings include the following **basic fields**: Title; description; address; location; details of the location; start and end time; field; category and maximum seating capacity. 
 
@@ -112,11 +112,11 @@ Meetings relating to a space's level (a specific process or a body) can be shown
 
 Some of the meeting component’s advanced functions include:
 
-* **Registration and attendance system **[function expected for 2017Q4, AjB-Lote2Mod2]:
+* **Registration and attendance system** [function expected for 2017Q4, AjB-Lote2Mod2]:
 
     * This allows the **type of registration** for a meeting to be managed (open and automatic, closed and accessible only to certain types of participants, etc.), establishes the **number of places **available for attendees, allows attendees to reserve a place, and process **manual registrations**. **Invitations** can be sent out and the **conditions **that need to be accepted in order to be able to attend the meeting can be defined (e.g. image rights release) and **registering the attendance **of participants.
 
-    * It allows participants **to register** for a meeting, request **a family reconciliation service **(playroom, childcare space) and to obtain an **accreditation code **for attending at a meeting. 
+    * It allows participants **to register** for a meeting, request **a family reconciliation service** (playroom, childcare space) and to obtain an **accreditation code** for attending at a meeting. 
 
     * Those registered who have attended a meeting will have **special access** enabling them to evaluate the meeting or make comments, etc. 
 
@@ -134,7 +134,7 @@ Some of the meeting component’s advanced functions include:
 
     * Minutes can be **commented on** using the comments component.
 
-    * **Accompanying documents **may also be added to the minutes.
+    * **Accompanying documents** may also be added to the minutes.
 
 * **Auto-convening**: verified participants will be able to convene meetings directly through the platform , with support from a certain number of other participants, the meeting will be publicly activated and convening participants will have access to the administration panel [function expected for 2017Q4, AjB-Lote2Mod2]
 
@@ -154,7 +154,7 @@ Configuration settings include:
 
 * **Automatic diploma creation** for those who request it, through a support panel that an administrator can later verify.
 
-* Links to the conference **video and materials **platforms in the programme and documents.
+* Links to the conference **video and materials** platforms in the programme and documents.
 
 * Automatic links to digital-media websites covering the conference.
 
@@ -162,15 +162,15 @@ Configuration settings include:
 
 ## 3.12	Blogs
 
-Blogs are a component that allow **news items** to be created and displayed chronologically. Blog entries are another type of content and have to be associated with a level of participatory space. Blog entries relate to the classification system of the platform’s content. **Comments associated **with blog entries will be treated like the platform’s other comments, as described above [function expected for 2017Q4, AjB-Lote2Mod1].
+Blogs are a component that allow **news items** to be created and displayed chronologically. Blog entries are another type of content and have to be associated with a level of participatory space. Blog entries relate to the classification system of the platform’s content. **Comments associated** with blog entries will be treated like the platform’s other comments, as described above [function expected for 2017Q4, AjB-Lote2Mod1].
 
 ## 3.13	General and targeted newsletter
 
 Decidim has a function which enables a user to send a **newsletter** (email) to everyone registered with the platform who has agreed, under the terms and conditions of use, to receiving this information newsletter email. Personalised emails are sent out addressed directly to the name of the user in various languages (sent out by default in the language chosen by the user). 
 
-**Selective newsletters **may also be emailed to user groups who have decided to follow a process, body or initiative [function expected for 2017Q3, GenCat].
+**Selective newsletters** may also be emailed to user groups who have decided to follow a process, body or initiative [function expected for 2017Q3, GenCat].
 
-Participants will automatically and directly be able to **unsubscribe **through the email itself by clicking on a link in it and it will also be possible to **track the number of visits** generated by the newsletter [function expected for 2017Q4, AjB-Lote2Mod1]. 
+Participants will automatically and directly be able to **unsubscribe** through the email itself by clicking on a link in it and it will also be possible to **track the number of visits** generated by the newsletter [function expected for 2017Q4, AjB-Lote2Mod1]. 
 
 ## 3.14	Search engine
 
@@ -178,3 +178,6 @@ Participants will automatically and directly be able to **unsubscribe **through 
 
 **Pages that can be browsed and filtered from search results** show contents according to their type and ordered by the priority they have been defined under (e.g. Showing first the terms found inside assemblies and later the participatory processes). [Function expected for 2017Q4, AjB-Lote3Mod2]
 
+## 3.15 Sortitions
+
+This component makes possible to select randomly a number of proposals among a set of proposals (or a category of proposals within a set) maximizing guarantees of randomness and avoiding manipulation of results by the administrator.
