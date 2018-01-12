@@ -46,7 +46,7 @@ Other functions associated with proposals include:
 
 Participatory texts are defined as an ordered collection of proposals that make up a document with complete text. Participation in the text stems from interaction with the proposals that form it. This component basically allows three operations [function expected for 2018Q2, AjB-Lote3Mod4]:
 
-* **Breaking down a text document into ordered proposals **based on a document in ODT, XDOC, MarkDown and HTML formats. If the text is structured in sections and subsections, ordered proposals will be created from the lower level subsection; if the text is not structured, a proposal will be created for each paragraph of text. The interface allows proposals to be re-edited, merged, separated, given titles, etc.
+* **Breaking down a text document into ordered proposals** based on a document in ODT, XDOC, MarkDown and HTML formats. If the text is structured in sections and subsections, ordered proposals will be created from the lower level subsection; if the text is not structured, a proposal will be created for each paragraph of text. The interface allows proposals to be re-edited, merged, separated, given titles, etc.
 
 * **Composition of proposals in a unified text**: based on a series of proposals, these may be ordered and generate a unified and downloadable text.
 
@@ -56,13 +56,13 @@ Participatory texts are defined as an ordered collection of proposals that make 
 
 Results are proposals (or amendments to proposals) which have ended up being the result of a decision taken in Decidim, whether directly (as a consequence of applying a voting system) or brought about by meetings, assemblies or the expert or political team in charge of a decision area through the platform’s management.
 
-The results component allows **official responses **to be managed for all the proposals made: with the reason for rejecting or accepting the proposal and the result in which the proposal has finished. 
+The results component allows **official responses** to be managed for all the proposals made: with the reason for rejecting or accepting the proposal and the result in which the proposal has finished. 
 
-Results collect **metadata on the traceability **of the proposals incorporated into the result, as well as the meetings where they were discussed and debated or created (by those attending these meetings) and all of the endorsements received.
+Results collect **metadata on the traceability** of the proposals incorporated into the result, as well as the meetings where they were discussed and debated or created (by those attending these meetings) and all of the endorsements received.
 
 ## 3.4	Monitoring results
 
-The result-monitoring component enables **results to be turned into projects **or allows them to be broken down into projects or sub-projects. Each of these projects can be described in further detail and allows **the implementation status to be defined**, in sections which range from 0% implementation to 100%. The monitoring component also enables people visiting the platform to **view the level of implementation **(comprehensive, by category and/or subcategory), of the results and projects. Results, projects and statuses can be updated through a CVS, or manually by the administration interface [function available for decidim.barcelona and awaiting integration into decidim-core, expected for 2017Q3, AjB].
+The result-monitoring component enables **results to be turned into projects** or allows them to be broken down into projects or sub-projects. Each of these projects can be described in further detail and allows **the implementation status to be defined**, in sections which range from 0% implementation to 100%. The monitoring component also enables people visiting the platform to **view the level of implementation** (comprehensive, by category and/or subcategory), of the results and projects. Results, projects and statuses can be updated through a CVS, or manually by the administration interface [function available for decidim.barcelona and awaiting integration into decidim-core, expected for 2017Q3, AjB].
 
 ## 3.5	Votes and/or endorsements
 
@@ -102,7 +102,7 @@ The surveys component allows results to be mapped out, processed and displayed f
 
 ## 3.10	In-person meetings
 
-This component enables users to convene meetings, **add them to a calendar with geo-location**, upload **meeting minutes**, **debate**, create **proposals associated **with meetings (stating the type of collective endorsement for the proposal), record the **number** of participants, upload **photos** of the meeting and **categorise** the meeting within a space.
+This component enables users to convene meetings, **add them to a calendar with geo-location**, upload **meeting minutes**, **debate**, create **proposals associated** with meetings (stating the type of collective endorsement for the proposal), record the **number** of participants, upload **photos** of the meeting and **categorise** the meeting within a space.
 
 The configuration **settings** for meetings include the following **basic fields**: Title; description; address; location; details of the location; start and end time; field; category and maximum seating capacity. 
 
@@ -114,7 +114,7 @@ Some of the meeting component’s advanced functions include:
 
 * **Registration and attendance system** [function expected for 2017Q4, AjB-Lote2Mod2]:
 
-    * This allows the **type of registration** for a meeting to be managed (open and automatic, closed and accessible only to certain types of participants, etc.), establishes the **number of places **available for attendees, allows attendees to reserve a place, and process **manual registrations**. **Invitations** can be sent out and the **conditions **that need to be accepted in order to be able to attend the meeting can be defined (e.g. image rights release) and **registering the attendance **of participants.
+    * This allows the **type of registration** for a meeting to be managed (open and automatic, closed and accessible only to certain types of participants, etc.), establishes the **number of places **available for attendees, allows attendees to reserve a place, and process **manual registrations**. **Invitations** can be sent out and the **conditions** that need to be accepted in order to be able to attend the meeting can be defined (e.g. image rights release) and **registering the attendance** of participants.
 
     * It allows participants **to register** for a meeting, request **a family reconciliation service** (playroom, childcare space) and to obtain an **accreditation code** for attending at a meeting. 
 
