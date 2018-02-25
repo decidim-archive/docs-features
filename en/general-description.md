@@ -27,7 +27,9 @@ Participants can exert different **types of actions** within the platform: 0. th
 
 Component items (e.g. a proposal, a blog post, a meeting) have their individual page but are also displayed as **cards** through the platform, cards being a major design interface to interact with components. Figure 3 displays a proposal card with the different types of actions identified within the card.
 
- 
+![Figure 3: Decidim's spaces and components menu](img/card-actions.png)
+
+Figure 3: The six main types of actions mapped into a proposal card.
 
 The users who participate in Decidim can be grouped into three different categories:
 
