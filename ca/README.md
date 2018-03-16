@@ -62,7 +62,7 @@ v1.0
   </tr>
   <tr>
     <td>Com se cita</td>
-    <td>Barandiaran, X.E. & Romaní, C. (2017) Funcionalitats i característiques de Decidim. v.1.0. </td>
+    <td>Barandiaran, X.E. & Romero, C. (2017) Funcionalitats i característiques de Decidim. v.1.0. </td>
   </tr>
   <tr>
     <td>Copyleft</td>
