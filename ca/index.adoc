@@ -1,0 +1,16 @@
+= Funcionalitats i característiques de Decidim: Roadmap 2017-2018
+:lang: ca
+include::../locale/attributes.adoc[]
+:authors: Xabier E. Barandiaran, Carolina Romero
+:revnumber: 1.0
+:revdate: 2017-09-04
+:toc:
+ifeval::["{backend}" == "html5"]
+:toclevels: 1
+endif::[]
+
+include::descripcio-general.adoc[leveloffset=+1]
+include::espais-participacio.adoc[leveloffset=+1]
+include::components.adoc[leveloffset=+1]
+include::participants.adoc[leveloffset=+1]
+include::funcionalitats-generals.adoc[leveloffset=+1]
