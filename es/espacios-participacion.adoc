@@ -1,10 +1,10 @@
-= 2 Espacios de participación
+= Espacios de participación
 
 Los espacios de participación definen los principales canales o vías de participación. Se muestran en el menú superior principal de la plataforma.
 
 La lógica central de la estructura del Decidim es que los *componentes se combinan en espacios de participación*. Existen diferentes tipos de espacios (iniciativas, procesos, consultas y asambleas) y diferentes instancias dentro de cada tipo (un proceso de elecciones y otro de presupuestos participativos, un órgano de consejo de barrio y otro de trabajadores, una iniciativa para cambiar una ley y otra para incluir algo en el orden del día de un pleno, etc.).
 
-== 2.1 Procesos
+== Procesos
 
 Los procesos de participación requieren rellenar un formulario de *configuración* general con los siguientes campos: Título o nombre del proceso, nombre corto para la url, hashtag (sirve de referencia para la comunicación en redes sociales), descripción corta, descripción larga, imagen de portada, imagen de banner, fecha de comienzo y finalización, ámbito, grupo promotor (responsable del proceso participativo a nivel político, puede ser el ayuntamiento o un grupo formado por técnicos/políticos del ayuntamiento y asociaciones u otras entidades), a quién va dirigido, objeto del proceso de participación y estructura participativa. El proceso de participación permite incorporar *documentos adjuntos*.
 
@@ -22,7 +22,7 @@ Es posible **marcar como destacado **un proceso (aumentando su visibilidad en la
 
 También hay la posibilidad de *copiar procesos de participación* desde el panel de administración. Esta funcionalidad permite diseñar procesos modelo y realizar una copia de los mismos para configurar algunos detalles de los nuevos procesos y no tener que crearlos de la nada.
 
-== 2.2 Asambleas
+== Asambleas
 
 Decidim permite la **creación y configuración **de *asambleas* de participación o gobierno (órganos de gobierno, de participación, consejos, grupos de trabajo, etc.), entendidos como grupos estructurados de participantes que, a título individual o representativo, se reúnen periódicamente, con la capacidad de crear propuestas y tomar decisiones.
 
@@ -45,7 +45,7 @@ La *sección de asambleas* permite ver un listado completo de todos las asamblea
 *** Se muestra la manera en que la propuesta fue acordada (por consenso, mayoría, número de votos, etc.). [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3]
 ** *Encuentros*: las asambleas tendrán una lista asociada de encuentros, pero algunas funcionalidades pueden saltar de un encuentro al siguiente, como las iniciativas ciudadanas de inclusión de un punto en el orden del día. Igualmente las actas deben de poderse mostrar independientemente del encuentro, como asociadas directamente al órgano [funcionalidad prevista para 2018Q1, AjB-Lote2Mod3].
 
-== 2.3 Iniciativas
+== Iniciativas
 
 Las *iniciativas* están previstas para Octubre de 2017 para el Ajuntament de Barcelona y se integrarán posteriormente en Decidim. Este espacio de participación permite a la ciudadanía hacer propuestas y recoger el *número de firmas y/o apoyos requeridos* según su tipología (los diferentes tipos están definidos en el reglamento municipal), dando lugar al inicio del procedimiento administrativo para su tramitación y seguimiento ciudadano.
 
@@ -59,6 +59,6 @@ El funcionamiento de las iniciativas es el siguiente:
 ** *Rechazada*: en caso de no conseguir el número mínimo de firmas se muestra el mensaje "no reúne las firmas necesarias" y se notifica a su creador.
 ** *Aceptada*: en caso de haber conseguido las firmas o apoyos suficientes se acepta e inicia la tramitación correspondiente.
 
-== 2.4 Consultas
+== Consultas
 
 El espacio de consultas (votaciones a las que son llamadas todas las personas participantes de la organización sobre preguntas específicas) permite a los participantes** informarse de las consultas** futuras o en curso, *debatir* sobre el objeto de la consulta y realizar el *seguimiento* del resultado. También ofrece una *pasarela a un sistema de voto electrónico* externo a Decidim pero integrado en términos de interfaz y de gestión y verificación de identidades [Funcionalidad prevista para 2018Q2, AjB].

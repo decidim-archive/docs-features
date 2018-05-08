@@ -1,8 +1,8 @@
-= 3. Components
+= Components
 
 Els components de Decidim són els mecanismes bàsics de participació que s'activen i configuren per als diferents espais de participació o subespais (fases d'un procés, grups de treball d'un òrgan, etcètera).
 
-== 3.1. Propostes
+== Propostes
 
 Les propostes són el component més important de Decidim. S'entén per proposta qualsevol element d'un pla estratègic, una normativa, un pla d'inversió, un canvi legislatiu o qualsevol altra unitat mínima de decisió. Les propostes poden tenir els següents *tipus de creadors*: per la mateixa organització que gestiona la plataforma (p. ex. un ajuntament), per participants registrats/ades, pot originar-se en una trobada com a resultat d'un debat o deliberació col·lectiva, o pot generar-los una assemblea o òrgan, o una organització registrada en la plataforma. També poden *crear-se de manera directa o col·laborativa* i estar subjectes a sistemes d’*esmenes*.
 
@@ -29,7 +29,7 @@ Altres funcionalitats associades a les propostes són les següents:
 ** Vincular l'esborrany a una cita presencial
 ** Promoure l'esborrany a iniciativa, proposta de procés o projecte.
 
-== 3.2. Textos participatius
+== Textos participatius
 
 Entenem per text participatiu una col·lecció ordenada de propostes que componen un document de text complet. La participació en el text es deriva de la interacció amb les propostes que la componen. Aquest component permet, fonamentalment, tres operacions [funcionalitat prevista per a 2018Q2, AjB-Lot3Mod4]:
 
@@ -37,7 +37,7 @@ Entenem per text participatiu una col·lecció ordenada de propostes que compone
 * *Composició de propostes en un text unificat*: a partir d'una conjunt de propostes, aquestes es podran ordenar i generar un text unificat i descarregable.
 * *Visualització i interacció* amb documents compostos de propostes: Es mostrarà la col·lecció de propostes com un text unificat i s’hi podran fer esmenes o comentaris al marge.
 
-== 3.3. Resultats
+== Resultats
 
 Els resultats són propostes (o modificacions de propostes) que han acabat sent el resultat de la presa de decisió en el Decidim, de manera directa (mitjançant el resultat de l'aplicació d'un sistema de vot) o bé intervinguda per trobades, assemblees o l'equip tècnic o polític a càrrec d'un àmbit de decisió a través de l'administració de la plataforma.
 
@@ -45,11 +45,11 @@ El component de resultats permet gestionar la *resposta* **oficial **a totes les
 
 Els resultats recullen les** metadades de la traçabilitat** de les propostes incorporades en el resultat, així com les trobades en què es va debatre o es va crear (assistents a les trobades esmentades) i la suma de suports rebuts.
 
-== 3.4. Seguiment de resultats
+== Seguiment de resultats
 
 El component de seguiment de resultats permet la *conversió de resultats a projectes* o permet descompondre'ls en projectes o subprojectes. Cada un dels projectes esmentats pot descriure's amb més detall i permet *definir l'estat d'execució*, en trams que van des de 0% d'execució al 100%. El component de seguiment permet, a més, a les persones que visiten la plataforma la *visualització del nivell d'execució* (global, per categories o subcategories), dels resultats i dels projectes. Els resultats, projectes i estats es pot actualitzar mitjançant un CVS i manualment mitjançant la interfície d'administració [funcionalitat disponible per a decidim.barcelona i pendent d'integració en decidim-core, previst per a 2017Q3, AjB].
 
-== 3.5. Votacions i suports
+== Votacions i suports
 
 Les persones participants poden donar suports a propostes. Els suports esmentats poden interpretar-se com a vots, signatures, suports, o de qualsevol altra manera que demostri un acord positiu de conformitat amb la voluntat política pròpia.
 
@@ -61,21 +61,21 @@ Des del tauler d'administració és possible *configurar la vista dels resultats
 
 Hi ha una forma de *vot especial per a pressupostos participatius* que permet a participants votar "gastant" una quantitat equivalent al pressuposat objecte de participació entre els projectes proposats. El nombre de vots està limitat aquí per la quantitat de despesa acumulada dels projectes seleccionats.
 
-== 3.6. Comentaris
+== Comentaris
 
 Els comentaris són un component especial que sol aparèixer associat a un altre component (propostes, debats, resultats, trobades, etcètera) per permetre un procés deliberatiu sobre un tema o proposta.
 
 El sistema de comentaris de Decidim ha estat dissenyat per afavorir la deliberació. Els comentaris de primer nivell, respecte a la finalitat de debat, es poden classificar de la manera següent: *a favor, en contra o neutral*. Els comentaris es poden *niar* en fils de subcomentaris i es poden *votar*. Decidim permet *ordenar comentaris* pels que estan a favor o en contra, en ordre cronològic i per quantitat de vots a favor. També permet *visualització a dues columnes* amb els comentaris més votats a favor i els més votats en contra [aquesta última funcionalitat està prevista per a 2017Q4, GenCat].
 
-== 3.7. Pàgines informatives
+== Pàgines informatives
 
 Es tracta d'una pàgina amb contingut html i un títol que apareix al menú interior dels espais de participació. Permet incorporar imatges, vídeos encastats i text enriquit.
 
-== 3.8. Debats
+== Debats
 
 Permet obrir debats sobre preguntes o temes específics definits pels administradors o pels participants. [Aquesta funcionalitat està activa només per a decidim.barcelona, s'espera la funcionalitat integrada a Decidim-core per a 2017Q3, GenCat].
 
-== 3.9. Enquestes
+== Enquestes
 
 El component d'enquestes permet dissenyar, realitzar i visualitzar els resultats d'enquestes que poden activar-se en diferents espais de participació.
 
@@ -83,7 +83,7 @@ El component d'enquestes permet dissenyar, realitzar i visualitzar els resultats
 * *Interfície d'enquestes per a participants*: permet a les participants respondre a les preguntes de l'enquesta.
 * *Visualitzador de resultats*: permet visualitzar els resultats de les enquestes de manera gràfica. [funcionalitat prevista per a 2017Q3, GenCat].
 
-== 3.10. Trobades presencials
+== Trobades presencials
 
 Aquest component permet convocar trobades, *establir un calendari*, *geolocalitzar*, penjar les *actes* de la trobada, *debatre*, crear *propostes associades* a la trobada (indicant el tipus de suport col·lectiu a la proposta), recollir el *nombre* de participants, penjar *fotos* de la trobada i *categoritzar* la trobada dins d'un espai.
 
@@ -110,7 +110,7 @@ Algunes funcions avançades del component trobada inclouen les següents:
 * *Autoconvocatòria*: les persones participants verificades podran convocar reunions a través de la plataforma de manera directa, amb el suport d'un nombre determinat d'altres persones participants s'activarà la trobada públicament i les participants convocants tindran accés al tauler d'administració [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod2]
 * *Visualització i exportació de trobades*: les trobades es poden visualitzar en mode mapa (per espais o de manera general a la plataforma), en mode calendari, i es podran exportar a gestors d'agendes i calendaris (en format iCalendar) [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod2].
 
-== 3.11. Jornades
+== Jornades
 
 Entenem jornades com un conjunt de trobades que tenen algunes característiques específiques (programa interactiu i descarregable, sistema d'inscripcions, sistema de generació de certificats d'assistència o diplomes).
 
@@ -125,11 +125,11 @@ Les opcions de configuració inclouen les següents:
 * Enllaços automàtics a webs de mitjans digitals que donin cobertura a les jornades.
 * Seguiment de les jornades per *xarxes socials* (p. ex. incorporant un _feed_ de Twitter).
 
-== 3.12. Blog
+== Blog
 
 El blog és un component que permet crear i visualitzar *notícies* en ordre cronològic. Les entrades d'un blog són un altre tipus de contingut, han d'estar associades a una instància d'un espai de participació. Les entrades del blog estan relacionades amb el sistema de classificació de continguts de la plataforma. Els *comentaris associats* a les entrades del blog seran tractats com la resta de comentaris de la plataforma, ja descrits anteriorment [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod1].
 
-== 3.13. Newsletter general i selectiva
+== Newsletter general i selectiva
 
 Decidim permet enviar una *newsletter* (un correu electrònic) a totes les persones inscrites a la plataforma que hagin acceptat, en les condicions d'ús, rebre el correu electrònic esmentat a tall de butlletí informatiu. La tramesa és personalitzada amb el nom d'usuari/ària i en diversos idiomes (s'envia per defecte en l'idioma escollit per l'usuari/ària).
 
@@ -137,7 +137,7 @@ També poden enviar-se *newsletters selectives* a grups d'usuaris que hagin deci
 
 Les persones participants podran *donar-se de baixa* de manera automàtica i directa des del mateix correu electrònic fent clic en un enllaç, i es podrà fer un *seguiment de visites* derivades dels newsletters [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod1].
 
-== 3.14. Cercador
+== Cercador
 
 El *cercador* permet realitzar recerques entre tots els continguts indexables de la plataforma, tant a escala general com en l’àmbit específic, fent la recerca dins d'un procés participatiu concret, o dins dels seus components (propostes, resultats, etcètera) mitjançant la cerca avançada.
 
