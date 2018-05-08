@@ -1,4 +1,4 @@
-= 5 General functionalities
+= General functionalities
 
 Below, we will outline a series of the platform’s general functions and features which do not appear in the spaces or components, or in the functions directly associated with participants.
 

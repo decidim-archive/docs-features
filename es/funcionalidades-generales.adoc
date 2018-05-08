@@ -1,4 +1,4 @@
-= 5 Funcionalidades generales
+= Funcionalidades generales
 
 Explicamos a continuación una serie de funcionalidades y características generales de la plataforma que no quedan recogidas en los espacios o componentes ni en las funcionalidades directamente asociadas a participantes.
 
