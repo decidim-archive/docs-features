@@ -1,16 +1,38 @@
-= Funcionalidades y características de Decidim: Roadmap 2017-2018
-:lang: es
-include::../locale/attributes.adoc[]
-:authors: Xabier E. Barandiaran, Carolina Romero
-:revnumber: 1.0
-:revdate: 2017-09-04
-:toc:
-ifeval::["{backend}" == "html5"]
-:toclevels: 1
-endif::[]
+include::README.adoc[tag=metadata]
 
-include::descripcion-general.adoc[leveloffset=+1]
-include::espacios-participacion.adoc[leveloffset=+1]
-include::componentes.adoc[leveloffset=+1]
-include::participantes.adoc[leveloffset=+1]
-include::funcionalidades-generales.adoc[leveloffset=+1]
+:toc: left
+:toclevels: 1
+
+:sectnums!:
+include::README.adoc[tag=metadata-table]
+<<<
+
+include::README.adoc[tag=contributing]
+<<<
+
+// include::SUMMARY.adoc[]
+// <<<
+
+:leveloffset: +1
+// AÑADIR AQUÍ DEBAJO LA LISTA DE CAPÍTULOS O SECCIONES NO NUMERADAS
+
+
+:sectnums:
+// AÑADIR AQUÍ DEBAJO LA LISTA DE CAPÍTULOS O SECCIONES NUMERADAS
+include::descripcion-general.adoc[]
+
+include::espacios-participacion.adoc[]
+
+include::componentes.adoc[]
+
+include::participantes.adoc[]
+
+include::funcionalidades-generales.adoc[]
+
+// AÑADIR AQUÍ DEBAJO LA LISTA DE ANEXOS. Cada anexo debe ir precedido de una línea con
+// "[appendix]".
+
+
+// FINAL DE LA LISTA DE CAPÍTULOS, SECCIONES O ANNEXOS
+
+:leveloffset: -1

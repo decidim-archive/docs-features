@@ -5,12 +5,13 @@ include::README.adoc[tag=metadata]
 
 :sectnums!:
 include::README.adoc[tag=metadata-table]
-
 <<<
+
 include::README.adoc[tag=contributing]
-
 <<<
+
 // include::SUMMARY.adoc[]
+// <<<
 
 :leveloffset: +1
 // AFEGIR AQUÍ SOTA EL LLISTAT DE CAPÍTOLS O SECCIONS NO NUMERADES
@@ -18,7 +19,6 @@ include::README.adoc[tag=contributing]
 
 :sectnums:
 // AFEGIR AQUÍ SOTA EL LLISTAT DE CAPÍTOLS O SECCIONS NUMERADES
-
 include::descripcio-general.adoc[]
 
 include::espais-participacio.adoc[]
@@ -29,8 +29,8 @@ include::participants.adoc[]
 
 include::funcionalitats-generals.adoc[]
 
-:sectnums!:
-// AFEGIR AQUÍ SOTA EL LLISTAT D'ANNEXOS
+// AFEGIR AQUÍ SOTA EL LLISTAT D'ANNEOS. Cada annex ha d'anar precedit d'una línia amb
+// "[appendix]".
 
 
 // FINAL DEL LLISTAT DE CAPÍTOLS, SECCIONS O ANNEXOS
