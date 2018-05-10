@@ -18,29 +18,29 @@ include::../locale/attributes.adoc[]
 // opcional.
 :revnumber: 1.0
 
-// OPCIONAL. Fecha de publicación de la versión. Por defecto se inserta automáticamente en
-// este campo la fecha de generación del documento web o PDF, en formato YYYY-MM-DD. Si se
-// desea, se puede sustituir "{docdate}" por una fecha manual en el formato que se quiera,
-// pero a partir de ese momento se deberá actualizar también manualmente.
+// OPCIONAL. Fecha de publicación de la versión. Si se deja el valor por defecto,
+// "{docdate}", la fecha actual en formato YYYY-MM-DD se inserta automáticamente en este
+// campo cada vez que se genera el documento formateado (web o PDF). También es posible
+// escribir aquí una fecha fija.
 :revdate: {docdate}
 
-// OPCIONAL. Ver la definición de este campo en el apartado "Criterios de autoría ..." de
+// OPCIONAL. Ver la descripción de este campo en el apartado "Criterios de autoría ..." de
 // más abajo.
 :_editors: Xabier E. Barandiaran, Carolina Romero
 
-// OBLIGATORIO. Ver la definición de este campo en el apartado "Criterios de autoría ..."
+// OBLIGATORIO. Ver la descripción de este campo en el apartado "Criterios de autoría ..."
 // de más abajo.
 :authors: Xabier E. Barandiaran, Carolina Romero
 
-// OPCIONAL. Ver la definición de este campo en el apartado "Criterios de autoría ..." de
+// OPCIONAL. Ver la descripción de este campo en el apartado "Criterios de autoría ..." de
 // más abajo.
 :_contributors: Asier Amezaga, Andrés Pereira de Lucena
 
-// OPCIONAL. Ver la definición de este campo en el apartado "Criterios de autoría ..." de
+// OPCIONAL. Ver la descripción de este campo en el apartado "Criterios de autoría ..." de
 // más abajo.
 :_proofreaders: Andrés Pereira de Lucena, Marta Almela, Juan Linares
 
-// OPCIONAL. Ver la definición de este campo en el apartado "Criterios de autoría ..." de
+// OPCIONAL. Ver la descripción de este campo en el apartado "Criterios de autoría ..." de
 // más abajo.
 :_participants: Josan Minguela, Joana Guijarro
 

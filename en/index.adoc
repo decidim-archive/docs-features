@@ -1,16 +1,38 @@
-= Decidim's functionalities and features: Roadmap 2017-2018
-:lang: en
-include::../locale/attributes.adoc[]
-:authors: Xabier E. Barandiaran, Carolina Romero
-:revnumber: 1.0
-:revdate: 2017-09-04
-:toc:
-ifeval::["{backend}" == "html5"]
-:toclevels: 1
-endif::[]
+include::README.adoc[tag=metadata]
 
-include::general-description.adoc[leveloffset=+1]
-include::participatory-spaces.adoc[leveloffset=+1]
-include::components.adoc[leveloffset=+1]
-include::participants.adoc[leveloffset=+1]
-include::general-functionalities.adoc[leveloffset=+1]
+:toc: left
+:toclevels: 1
+
+:sectnums!:
+include::README.adoc[tag=metadata-table]
+<<<
+
+include::README.adoc[tag=contributing]
+<<<
+
+// include::SUMMARY.adoc[]
+// <<<
+
+:leveloffset: +1
+// ADD HERE THE LIST OF *UNNUMBERED* CHAPTERS OR SECTIONS
+
+
+:sectnums:
+// ADD HERE THE LIST OF *NUMBERED* CHAPTERS OR SECTIONS
+include::general-description.adoc[]
+
+include::participatory-spaces.adoc[]
+
+include::components.adoc[]
+
+include::participants.adoc[]
+
+include::general-functionalities.adoc[]
+
+// ADD HERE THE LIST OF APPENDIXES. Every appendix must be preceded by a line with the
+// string "[appendix]"
+
+
+// END OF THE LIST OF CHAPTERS, SECTIONS OR ANNEXES
+
+:leveloffset: -1

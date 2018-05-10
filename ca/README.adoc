@@ -2,7 +2,7 @@
 :lang: ca
 include::../locale/attributes.adoc[]
 
-// OBLIGATORI. Títol del document. En format web Apareix com a encapçalament de nivell 1.
+// OBLIGATORI. Títol del document. En format web apareix com a encapçalament de nivell 1.
 // En format PDF apareix a la portada.
 :_title: Funcionalitats i característiques de Decidim
 
@@ -17,29 +17,29 @@ include::../locale/attributes.adoc[]
 // OBLIGATORI. Versió numèrica en format X.Y.Z on X, Y i Z son nombres, i Z és opcional.
 :revnumber: 1.0
 
-// OPCIONAL. Data de publicació de la versió. Per defecte s'insereix automàticament en
-// aquest camp la data de generació del document web o PDF, en format YYYY-MM-DD. Si es
-// desitja, es pot substituir "{docdate}" per una data manual en el format que es vulgui,
-// però a partir d'aquest moment s'haurà d'actualitzar també manualment.
+// OPCIONAL. Data de publicació de la versió. Si es deixa el valor per defecte,
+// "{docdate}", la data actual en format YYYY-MM-DD s'insereix automàticament en aquest
+// camp cada cop que es genera el document formatat (web o PDF). També és possible
+// escriure aquí una data fixa.
 :revdate: {docdate}
 
-// OPCIONAL. Veure la definició d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
 // avall.
 :_editors: Xabier E. Barandiaran, Carolina Romero
 
-// OBLIGATORI. Veure la definició d'aquest camp a l'apartat "Criteris d'autoria ..." de
+// OBLIGATORI. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de
 // més avall.
 :authors: Xabier E. Barandiaran, Carolina Romero
 
-// OPCIONAL. Veure la definició d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
 // avall.
 :_contributors: Asier Amezaga, Andrés Pereira de Lucena
 
-// OPCIONAL. Veure la definició d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
 // avall.
 :_proofreaders: Andrés Pereira de Lucena, Marta Almela, Juan Linares
 
-// OPCIONAL. Veure la definició d'aquest camp a l'apartat "Criteris d'autoria ..." de més
+// OPCIONAL. Veure la descripció d'aquest camp a l'apartat "Criteris d'autoria ..." de més
 // avall.
 :_participants: Josan Minguela, Joana Guijarro
 
