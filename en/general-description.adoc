@@ -21,11 +21,13 @@ The *components* (also called features) are displayed as a second level menu wit
 
 Participants can carry on different *types of actions* within the platform:
 
+[start=0]
 . They can *navigate* and search for information
 . They can *create* contents of different types (e.g. proposals and debates).
 . They can *vote, support or sign* all three modes allow for participants to aggregate their preference or will for a specific consultation question, proposal or initiative respectively (the difference between these three types of actions involve different levels of security and anonymity: signatures can be audited and attributed to a participant, supports cannot, in order to prevent coercion, while votes involve higher cryptographic guarantees than supports).
 . They can *comment* on any object of the platform (proposals, debates, results, sortitions, etc.).
-. They can *endorse* any content, meaning that they can publicly declare they support it or find it relevant, with the participants following it then receiving notifications. 5. They can *follow* other participants, a participatory process, an initiative, a specific proposal, etc. and receive notifications.
+. They can *endorse* any content, meaning that they can publicly declare they support it or find it relevant, with the participants following it then receiving notifications.
+. They can *follow* other participants, a participatory process, an initiative, a specific proposal, etc. and receive notifications.
 . They can *sign up* for a meeting.
 . They can also *share* and *embed* content out of the platform, sharing the link to other social networks and embedding content on other sites.
 
