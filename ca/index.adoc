@@ -1,16 +1,38 @@
-= Funcionalitats i característiques de Decidim: Roadmap 2017-2018
-:lang: ca
-include::../locale/attributes.adoc[]
-:authors: Xabier E. Barandiaran, Carolina Romero
-:revnumber: 1.0
-:revdate: 2017-09-04
-:toc:
-ifeval::["{backend}" == "html5"]
-:toclevels: 1
-endif::[]
+include::README.adoc[tag=metadata]
 
-include::descripcio-general.adoc[leveloffset=+1]
-include::espais-participacio.adoc[leveloffset=+1]
-include::components.adoc[leveloffset=+1]
-include::participants.adoc[leveloffset=+1]
-include::funcionalitats-generals.adoc[leveloffset=+1]
+:toc: left
+:toclevels: 1
+
+:sectnums!:
+include::README.adoc[tag=metadata-table]
+
+<<<
+include::README.adoc[tag=contributing]
+
+<<<
+// include::SUMMARY.adoc[]
+
+:leveloffset: +1
+// AFEGIR AQUÍ SOTA EL LLISTAT DE CAPÍTOLS O SECCIONS NO NUMERADES
+
+
+:sectnums:
+// AFEGIR AQUÍ SOTA EL LLISTAT DE CAPÍTOLS O SECCIONS NUMERADES
+
+include::descripcio-general.adoc[]
+
+include::espais-participacio.adoc[]
+
+include::components.adoc[]
+
+include::participants.adoc[]
+
+include::funcionalitats-generals.adoc[]
+
+:sectnums!:
+// AFEGIR AQUÍ SOTA EL LLISTAT D'ANNEXOS
+
+
+// FINAL DEL LLISTAT DE CAPÍTOLS, SECCIONS O ANNEXOS
+
+:leveloffset: -1
