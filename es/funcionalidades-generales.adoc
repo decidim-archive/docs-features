@@ -2,13 +2,13 @@
 
 Explicamos a continuación una serie de funcionalidades y características generales de la plataforma que no quedan recogidas en los espacios o componentes ni en las funcionalidades directamente asociadas a participantes.
 
-== 5.1 Instalación y configuración
+== Instalación y configuración
 
 Decidim *se instala fácilmente* a través de la línea de comandos en cualquier servidor GNU/Linux con los siguientes servicios instalados: PostgreSQL 9.4+, Ruby 2.4.1, NodeJS con yarn (JavaScript dependency manage), ImageMagick y PhantomJS. Un script automático de instalación permite desplegar todo el sistema de dependencias, librerías, bases de datos y otros servicios requeridos de manera automática en Heroku o Docker [funcionalidad prevista para 2018].
 
 La *configuración* del portal permite una *personalización* con los siguientes campos que se rellenan en un formulario desde el panel de administración: Nombre del portal, perfiles de redes sociales (Twitter, Facebook, Instagram, Youtube, Github), breve descripción, texto de bienvenida, idioma por defecto, imagen de portada, logotipo de la organización, favicon, prefijo de referencia (identificador único que se aplicará a los elementos del portal) y URL de la organización.
 
-== 5.2 Integración con otros servicios y compatibilidad/creación de servicios adicionales
+== Integración con otros servicios y compatibilidad/creación de servicios adicionales
 
 Decidim se puede integrar fácilmente con los siguientes servicios que puede instalarse o configurarse junto con Decidim:
 
@@ -24,17 +24,17 @@ Decidim genera automáticamente los siguientes servicios además de los que pued
 * *SMTP*: envío de correos electrónicos.
 * *Calendario*: integración o compatibilidad con sistemas de gestión de calendarios y creación y actualización automática de calendarios de eventos, etc. [Funcionalidad prevista para 2018Q1-3, AjB-Lote1].
 
-== 5.3 Multi-tenencia
+== Multi-tenencia
 
 *Múltiples tenencias* de la plataforma pueden servirse en base a una sola instalación. Dicho de otra manera, una sola instalación de Decidim permite desplegar tantos portales como se quiera con una configuración específica para cada una de las instancias. De este modo una organización puede crear portales de participación para sub-organizaciones suyas, o varias organizaciones pueden compartir servidor y reducir los costes de mantenimiento de sus portales.
 
-== 5.4 Multi-idioma
+== Multi-idioma
 
 Decidim es una plataforma *multi-idioma*. Durante la instalación se configuran los idiomas disponibles. Los menús, formularios de administración y, en general, los textos fijos de la plataforma están disponibles en varios idiomas (Castellano, Catalán, Euskera, Italiano, Francés, Holandés y Suomi). Un sistema de *traducción colaborativa* en https://crowdin.com/project/decidim, facilita la incorporación de nuevos idiomas a la plataforma.
 
 A nivel de contenido, una vez fijados los idiomas oficiales de la instancia durante la instalación, todos los contenidos que se crean desde el panel de administración tienen la opción de generarse en dichos idiomas. El panel de administración permite la *gestión de contenidos en diferentes idiomas* a través de pestañas. El contenido generado por las personas usuarias se muestra en la plataforma en un sólo idioma (el escogido por la persona participante a través del selector de idiomas en la parte superior de los menús o automáticamente a través de la configuración lingüística de su navegador).
 
-== 5.5 Estadísticas, datos abiertos y descargas
+== Estadísticas, datos abiertos y descargas
 
 Además de la interfaz de programación de aplicaciones (API) que proporciona acceso a datos públicos de manera automática, en la portada de Decidim puede encontrarse un *cuadro de estadísticas generales*, con los siguientes campos: número de participantes, procesos, propuestas, resultados, encuentros, comentarios y votos.
 
@@ -50,7 +50,7 @@ Decidim dispone también de un *módulo de visualización de datos*, tanto a niv
 
 Todas estas visualizaciones vienen acompañadas de una *opción de descarga de los datos* en formato CSV [funcionalidad prevista para 2018Q1, AjB-Lote2Mod4].
 
-== 5.6 API, Diseño web adaptable y aplicación móvil
+== API, Diseño web adaptable y aplicación móvil
 
 Decidim dispone de un interfaz de programación de aplicaciones o API que es un conjunto de llamadas a servicios y datos de forma independiente de la interfaz web de Decidim. Esto permite a terceros desarrollar servicios sobre la plataforma, liberar datos de manera automática o desarrollar nuevas interfaces o integración de otros servicios con decidim.
 
@@ -60,7 +60,7 @@ El *diseño* web de Decidim es completamente *adaptable* (_responsive_), siguien
 
 Tanto el diseño web como la API facilitan el desarrollo de aplicaciones móviles para Decidim, está previsto el desarrollo de una *App Móvil* para finales de 2018 [AjB].
 
-== 5.7 Sistemas de clasificación de contenidos
+== Sistemas de clasificación de contenidos
 
 A nivel de clasificación de contenidos Decidim permite diferenciar y configurar: ámbitos, categorías y etiquetas (o tags).
 
@@ -70,6 +70,6 @@ Las *categorías y subcategorías* sirven para clasificar contenidos dentro de l
 
 A diferencia de los ámbitos y las categorías, las *etiquetas* o tags son transversales, son libremente definidas por las personas participantes y se pueden aplicar a cualquier instancia o componente. Desde el panel de administración se pueden crear etiquetas, anidarlas y definirlas. Un sistema de sugerencia de etiquetas permite a las personas que participan escoger etiquetas similares a las que están proponiendo para etiquetar cualquier elemento de la plataforma. Se podrán navegar los elementos por etiquetas y mostrar las etiquetas más populares [funcionalidad prevista para 2017Q4, AjB-Lote2Mod1].
 
-== 5.8 Sistema de ayuda contextual, tests de usabilidad y valoración
+== Sistema de ayuda contextual, tests de usabilidad y valoración
 
 Decidim incluye un sistema de *ayudas contextuales editables* para guiar a personas participantes y administrativas en el uso de la plataforma. Igualmente incluye un sistema que permite realizar *experimentos de usabilidad* con tests y estadísticas de uso, así como realizar *encuestas de valoración automáticas* a las participantes de cara a identificar errores de usabilidad, de procedimientos de participación y mejorar la calidad democrática y de experiencia del software [Funcionalidad prevista para 2018Q1-3, AjB-Lote1].
