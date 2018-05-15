@@ -30,7 +30,7 @@ La *sección de asambleas* permite ver un listado completo de todos las asamblea
 
 * *Convocatorias de reuniones*: envío automático de convocatoria, creación colaborativa del orden del día, inscripción a asistencia. Para un listado completo de funcionalidades ver componente "encuentros" [funcionalidad prevista para 2017Q2-3, AjB-Lote2Mod2].
 * *Características de la asamblea*: abierta, pública, transparente, u otras características del grado de participación que la asamblea permite.
-* *Composición*: permite definir la composición del órgano con más detalle, haciendo uso de los perfiles de participantes asociados al órgano así como otras característicasSe genera automáticamente una visualización de la composición del órgano a partir de la composición de los miembros participantes [funcionalidad prevista para 2018Q2-3, AjB-Lote2Mod3]:
+* *Composición*: permite definir la composición del órgano con más detalle, haciendo uso de los perfiles de participantes asociados al órgano así como otras características. Se genera automáticamente una visualización de la composición del órgano a partir de la composición de los miembros participantes [funcionalidad prevista para 2018Q2-3, AjB-Lote2Mod3]:
 ** *Tipos de miembros*: Presidente, vicepresidente, secretarios, otros.
 ** *Origen de miembros*: por sorteo, elección directa, representación de otra asamblea, representación de gobierno, etc.
 ** *Grupos de trabajo interno*: creación de sub-asambleas. Los grupos de trabajo, se podrán relacionar con el órgano al que pertenecen.
