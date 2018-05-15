@@ -16,7 +16,7 @@ Un *configurador de processos de participació* permet activar i desactivar fase
 
 La funcionalitat de **grups de processos **permet agrupar diversos processos, per exemple per a pressupostos participatius de districtes o barris diferents.
 
-Els processos de participació poden estar en un dels *estats de procés* següents: 0) publicat o no publicat, 1) obert (ha començat), 2) tancat (ha acabat el procés de participació però els seus resultats són encara en via d'execució), 3) finalitzat (tant el procés com els seus resultats ja estan acabats) i 4) futur (encara no ha començat) [funcionalitat prevista per a 2017Q3, GenCat].
+Els processos de participació poden estar en un dels *estats de procés* següents: 0) publicat o no publicat, 1) obert (ha començat), 2) tancat (ha acabat el procés de participació però els seus resultats són encara en via d'execució), 3) finalitzat (tant el procés com els seus resultats ja estan acabats) i 4) futur (encara no ha començat).
 
 És possible **marcar com destacat **un procés (augmentant-ne la visibilitat a la portada).
 
@@ -28,26 +28,26 @@ Decidim permet la *creació i configuració d'assemblees* de participació o gov
 
 La *secció d'assemblees* permet veure un llistat complet de totes les assemblees que s'activen i es configuren des del tauler d'administració. La *configuració* bàsica exigeix determinar, per a cada òrgan, els camps següents: nom, imatge, àmbit (global, territorial o sectorial), funció de l'òrgan (objecte d'actuació), tipus d'òrgan (govern, executiu, consultiu/assessor, participatiu, grup de treball, comissió...), data de creació, creat per iniciativa de (Ajuntament, ciutadans o altres), durada (indefinida o determinada; en aquest cas, data d'acabament), data d'inclusió en el Decidim, data de tancament i motiu, com s'organitza (funcions, competències...), composició, si és possible adherir-s’hi i com fer-ho, la forma de selecció els membres, tipus/funció dels membres dins de l'òrgan, composició de grups de treball interns com a comissió de seguiment o comissió assessora), característiques de l'òrgan, xarxes socials de l'òrgan (nom de la xarxa social i enllaç), i properes trobades de l'òrgan.
 
-* *Convocatòries de reunions*: tramesa automàtica de convocatòria, creació col·laborativa de l'ordre del dia, inscripció a assistència. Per a un llistat complet de funcionalitats, vegeu el component "trobades" [funcionalitat prevista per a 2017Q4, AjB-Lot2Mod2].
-* *Característiques de l'assemblea*: oberta, pública, transparent, o altres característiques del grau de participació que permet l'assemblea [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
-* *Composició*: Permet definir la composició de l'òrgan amb més detall, fent ús dels perfils de participants associats a l'òrgan així com altres característiques. Es genera automàticament una visualització de la composició de l'òrgan a partir de la composició dels membres participants [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]:
+* *Convocatòries de reunions*: tramesa automàtica de convocatòria, creació col·laborativa de l'ordre del dia, inscripció a assistència. Per a un llistat complet de funcionalitats, vegeu el component "trobades" [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod2].
+* *Característiques de l'assemblea*: oberta, pública, transparent, o altres característiques del grau de participació que permet l'assemblea.
+* *Composició*: Permet definir la composició de l'òrgan amb més detall, fent ús dels perfils de participants associats a l'òrgan així com altres característiques. Es genera automàticament una visualització de la composició de l'òrgan a partir de la composició dels membres participants [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]:
 ** *Tipus de membres*: President, vicepresident, secretaris, d'altres
 ** *Origen de membres*: per sorteig, elecció directa, representació d'una altra assemblea, representació de govern, etcètera.
 ** *Grups de treball intern*: creació de subassemblees. Els grups de treball es podran relacionar amb l'òrgan a què pertanyen.
 ** *Característiques*: Obert/tancat, transparent, amb diferents permisos d'accés.
-* *Visualització*: permet visualitzar dades internes de cada òrgan, així com relacions entre assemblees [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+* *Visualització*: permet visualitzar dades internes de cada òrgan, així com relacions entre assemblees [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]
 ** *Composició*: mostra en forma de diagrama circular la composició de l'òrgan.
 ** *Organigrames*: mostra la jerarquia o xarxa d'assemblees i les seves relacions.
-* *Mapa i calendari*: permet veure la localització de tots les assemblees en un mapa i en un calendari [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+* *Mapa i calendari*: permet veure la localització de tots les assemblees en un mapa i en un calendari [funcionalitat prevista per a 2018Q3-4, AjB-Lot2Mod3].
 * *Relació amb altres espais i components*
-** *Relació amb processos*: les assemblees poden ser grup promotor, iniciar un procés o fer propostes dins d'un procés. La composició d'un òrgan ha de poder ser el resultat d'un procés (d'elecció de càrrecs) [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
+** *Relació amb processos*: les assemblees poden ser grup promotor, iniciar un procés o fer propostes dins d'un procés. La composició d'un òrgan ha de poder ser el resultat d'un procés (d'elecció de càrrecs) [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]
 ** *Propostes i resultats*: un òrgan pot generar les seves pròpies propostes o resultats.
-*** Es mostra la manera en què la proposta va ser acordada (per consens, majoria, nombre de vots, etcètera). [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3]
-** *Trobades*: les assemblees tindran una llista associada de trobades, però algunes funcionalitats poden saltar d'una trobada al següent, com les iniciatives ciutadanes d'inclusió d'un punt en l'ordre del dia. Igualment les actes han de poder mostrar-se independentment de la trobada, com associades directament a l'òrgan [funcionalitat prevista per a 2018Q1, AjB-Lot2Mod3].
+*** Es mostra la manera en què la proposta va ser acordada (per consens, majoria, nombre de vots, etcètera). [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3]
+** *Trobades*: les assemblees tindran una llista associada de trobades, però algunes funcionalitats poden saltar d'una trobada al següent, com les iniciatives ciutadanes d'inclusió d'un punt en l'ordre del dia. Igualment les actes han de poder mostrar-se independentment de la trobada, com associades directament a l'òrgan [funcionalitat prevista per a 2018Q2-3, AjB-Lot2Mod3].
 
 == Iniciatives
 
-Les *iniciatives* estan previstes per a l'octubre de 2017 per a l'Ajuntament de Barcelona i s'integraran posteriorment a Decidim. Aquest espai de participació permet a la ciutadania fer propostes i recollir el *nombre de signatures i suports requerits* segons la seva tipologia (els diferents tipus estan definits al reglament municipal), donant lloc a l'inici del procediment administratiu per a la seva tramitació i seguiment ciutadà.
+Aquest espai de participació permet a la ciutadania fer propostes i recollir el *nombre de signatures i suports requerits* segons la seva tipologia (els diferents tipus estan definits al reglament municipal), donant lloc a l'inici del procediment administratiu per a la seva tramitació i seguiment ciutadà.
 
 El funcionament de les iniciatives és el següent:
 
@@ -61,4 +61,4 @@ El funcionament de les iniciatives és el següent:
 
 == Consultes
 
-L'espai de consultes (votacions a les quals són cridades totes les persones participants de l'organització sobre preguntes específiques) permet als participants** informar-se de les consultes** futures o en curs, *debatre* sobre l'objecte de la consulta i fer el *seguiment* del resultat. També ofereix una *passarel·la a un sistema de vot electrònic* extern a Decidim però integrat en termes d'interfície i de gestió i verificació d'identitats [Funcionalitat prevista per a 2018Q2, AjB].
+L'espai de consultes (votacions a les quals són cridades totes les persones participants de l'organització sobre preguntes específiques) permet als participants** informar-se de les consultes** futures o en curs, *debatre* sobre l'objecte de la consulta i fer el *seguiment* del resultat. També ofereix una *passarel·la a un sistema de vot electrònic* extern a Decidim però integrat en termes d'interfície i de gestió i verificació d'identitats [Funcionalitat prevista per a 2018Q2-3, AjB].
