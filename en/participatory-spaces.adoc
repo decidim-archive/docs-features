@@ -16,7 +16,7 @@ A *participatory process configuration tool* enables the simple activation and d
 
 The function of **process groups **enables various processes to be grouped, such as by the Participatory Budgets of different districts or neighbourhoods.
 
-Participatory processes may have one of the following *process statuses*: 0) published or unpublished; 1) open (started); 2) closed (the participatory process has ended but its results are still under way; 3) finished (both the process and its results phase are complete) and 4) future (has not yet started) [function expected for 2017Q3, GenCat].
+Participatory processes may have one of the following *process statuses*: 0) published or unpublished; 1) open (started); 2) closed (the participatory process has ended but its results are still under way; 3) finished (both the process and its results phase are complete) and 4) future (has not yet started).
 
 A process can be **highlighted **(which increases its visibility on the homepage).
 
@@ -28,26 +28,26 @@ Decidim allows the **creation and configuration **of participatory or government
 
 The *assemblies section* allows you to see a full list of all of the assemblies that are active and can be configured from the administration panel. The basic *settings* require the following fields to be completed for each body: name; image; field (global, territorial or sectoral); body’s function (purpose of action); type of body (government, executive, consultative / advisory, participatory, work group, commission etc.,); creation date; created on the initiative of (City Council, citizens or others); duration (indefinite or fixed, in the latter case, finishing date); date of inclusion in Decidim; date of closure and reason; as organised (functions; powers etc.,) composition, where it can be joined and how to do that; method of choosing members; type/ function of members within the body; composition of internal work groups as monitoring or advisory committees); the body's features; the body's social networks (name of social network and link) and the body’s next meetings.
 
-* *Convening meetings*: the automatic facility to send meeting invitations, collaboratively create agendas, and register attendance. For a complete list of functions see the "meetings" component [function expected for 2017Q4, AjB-Lote2Mod2].
-* *Assembly’s features*: open, public, transparent and other features regarding the level of participation that the assembly allows [function expected for 2018Q1, AjB-Lote2Mod3].
-* *Composition:* This enables the composition of the body to be defined in greater detail, using the profiles of participants associated with the body as well as other features. A display of the body’s structure is automatically generated based on the composition of participating members [function expected for 2018Q1, AjB-Lote2Mod3]:
+* *Convening meetings*: the automatic facility to send meeting invitations, collaboratively create agendas, and register attendance. For a complete list of functions see the "meetings" component [function expected for 2018Q2-3, AjB-Lote2Mod2].
+* *Assembly’s features*: open, public, transparent and other features regarding the level of participation that the assembly allows.
+* *Composition:* This enables the composition of the body to be defined in greater detail, using the profiles of participants associated with the body as well as other features. A display of the body’s structure is automatically generated based on the composition of participating members [function expected for 2018Q2-3, AjB-Lote2Mod3]:
 ** *Types of members*: Chair, deputy chair, secretaries, others
 ** *Membership origin*: by draw; direct election; representation from another assembly; government representation etc.
 ** *Internal work groups*: for the creation of sub-assemblies. Work groups will be able to relate to the body they belong to
 ** *Features*: Open/closed; transparent; with various access permits.
-* *Display*: allows us to view internal data about each body as well as the associations between assemblies [function expected for 2018Q1, AjB-Lote2Mod3]
+* *Display*: allows us to view internal data about each body as well as the associations between assemblies [function expected for 2018Q2-3, AjB-Lote2Mod3]
 ** *Composition*: the structure of a body is shown in the form of a circle diagram
 ** *Organisation charts*: allow us to view the hierarchy or network of assemblies and their associations.
-* *Map and calendar*: allow us to view the location of all the assemblies on a map and calendar [function expected for 2018Q1, AjB-Lote2Mod3].
+* *Map and calendar*: allow us to view the location of all the assemblies on a map and calendar [function expected for 2018Q3-4, AjB-Lote2Mod3].
 * *Involvement with other spaces and components*
-** *Involvement with processes*: assemblies can be promoter groups, start a process or make proposals within a process. A body’s composition has to be the result of a process (for electing posts) [function expected for 2018Q1, AjB-Lote2Mod3]
+** *Involvement with processes*: assemblies can be promoter groups, start a process or make proposals within a process. A body’s composition has to be the result of a process (for electing posts) [function expected for 2018Q2-3, AjB-Lote2Mod3]
 ** *Proposals and results*: a body can generate its own proposals or results.
-*** It shows how the proposal was agreed on (by consensus, majority, number of votes etc.). [Function expected for 2018Q1, AjB-Lote2Mod3]
-** *Meetings*: assemblies will have a list of associated meetings, but some functions may jump from one meeting to another , such as citizen initiatives to be included in an agenda item. Likewise, it must be possible to view minutes separately from the meeting, as they are associated directly with the body [function expected for 2018Q1, AjB-Lote2Mod3].
+*** It shows how the proposal was agreed on (by consensus, majority, number of votes etc.). [Function expected for 2018Q2-3, AjB-Lote2Mod3]
+** *Meetings*: assemblies will have a list of associated meetings, but some functions may jump from one meeting to another , such as citizen initiatives to be included in an agenda item. Likewise, it must be possible to view minutes separately from the meeting, as they are associated directly with the body [function expected for 2018Q2-3, AjB-Lote2Mod3].
 
 == Initiatives
 
-*Initiatives* are expected for October 2017 for Barcelona City Council and will subsequently be integrated into Decidim. This participatory space allows citizens to make proposals and collect the *requisite number of signatures and/or endorsements* depending on type (the various types are set out in the municipal regulations), giving rise to the start of the administrative procedure for its processing and citizen monitoring.
+*Initiatives*. This participatory space allows citizens to make proposals and collect the *requisite number of signatures and/or endorsements* depending on type (the various types are set out in the municipal regulations), giving rise to the start of the administrative procedure for its processing and citizen monitoring.
 
 Initiatives have the following functions:
 
@@ -61,4 +61,4 @@ Initiatives have the following functions:
 
 == Consultations
 
-Consultations ( a voting procedure where all of the organisation’s participants are called to vote on specific questions) is a space that allows participants** to find out about current or prospective consultations**, *discuss and debate* the consultation’s subject area and *monitor* the results. It also provides a *gateway to an e-voting system* which is external to Decidim but integrated in the interface in order to manage and verify identities [Function expected for 2018Q2, AjB].
+Consultations ( a voting procedure where all of the organisation’s participants are called to vote on specific questions) is a space that allows participants** to find out about current or prospective consultations**, *discuss and debate* the consultation’s subject area and *monitor* the results. It also provides a *gateway to an e-voting system* which is external to Decidim but integrated in the interface in order to manage and verify identities [Function expected for 2018Q2-3, AjB].
