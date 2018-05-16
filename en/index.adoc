@@ -2,6 +2,7 @@ include::README.adoc[tag=metadata]
 
 :toc: left
 :toclevels: 1
+:xrefstyle: short
 
 :sectnums!:
 include::README.adoc[tag=metadata-table]
