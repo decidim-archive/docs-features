@@ -5,11 +5,11 @@
 * xref:contributing.adoc[Criterios de autoría y como participar en este documento]
 
 .Contenidos
-* xref:introduction.adoc[Introducción]
-* Segunda sección
-** Subsección A
-** Subsección B
-* Tercera sección
+* xref:general-description.adoc[Descripción general e introducción al funcionamiento de Decidim]
+* xref:participatory-spaces.adoc[Espacios de participación]
+* xref:components.adoc[Componentes]
+* xref:participants.adoc[Participantes]
+* xref:general-features.adoc[Funcionalidades generales]
 
 .Otros formatos
 * xref:single-page.adoc[Página única (HTML)]

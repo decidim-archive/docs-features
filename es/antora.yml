@@ -18,7 +18,7 @@ version: es
 # It must be "ROOT:" followed by a file present in modules/ROOT/pages/. See
 # https://docs.antora.org/antora/1.0/page/page-id/ to understand how Antora's
 # Page Ids work.
-start_page: ROOT:introduction.adoc
+start_page: ROOT:general-description.adoc
 
 # MANDATORY. A list of Antora navigation files. You probably don't need to
 # change this field. See https://docs.antora.org/antora/1.0/navigation/

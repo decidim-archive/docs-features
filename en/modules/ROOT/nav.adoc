@@ -6,11 +6,11 @@
 
 
 .Contents
-* xref:introduction.adoc[Introduction]
-* Second section
-** Subsection A
-** Subsection B
-* Third section
+* xref:general-description.adoc[General description and introduction to how Decidim works]
+* xref:participatory-spaces.adoc[Participatory spaces]
+* xref:components.adoc[Components]
+* xref:participants.adoc[Participants]
+* xref:general-features.adoc[General features]
 
 .Other formats
 * xref:single-page.adoc[Single page (HTML)]
