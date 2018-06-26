@@ -1,4 +1,11 @@
 = Descripción general e introducción al funcionamiento de Decidim
+:page-partial:
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
 
 Decidim [http://decidim.org], del catalán "decidimos", es una infraestructura digital para la democracia participativa construida enteramente en software libre de manera colaborativa. Más concretamente Decidim es un entorno web (un _framework_) hecho en _Ruby on Rails_ que permite crear y configurar un portal o plataforma web, a modo de una red social, para la participación democrática. El portal permite a cualquier organización (un ayuntamiento, una asociación, universidad, ONG, sindicato, barrio o cooperativa) crear procesos masivos de planificación, de presupuestos participativos, de diseño colaborativo de reglamentos, espacios urbanos o elecciones. También permite organizar reuniones presenciales, convocar encuentros, inscripciones, publicación de actas, estructurar órganos de gobiernos o asambleas, convocar consultas o canalizar iniciativas. Decidim también puede ayudar en la organización de órganos de gobierno, consejos o asambleas, en la convocatoria de consultas y referendos o en la canalización de iniciativas ciudadanas o de los miembros para impactar en diferentes procesos de toma de decisiones. Decidim permite estructurar digitalmente un sistema completo de gobernanza democrática participativa para cualquier organización.
 
@@ -6,14 +13,14 @@ Para comprender en detalle el funcionamiento de Decidim, es necesario hacer una 
 
 [#arquitectura-funcional-fig]
 ._Diagrama resumido de Decidim como combinación de componentes en instancias de espacios de participación. El componente Votaciones* permite diferentes sistemas de voto, expresión de apoyo o adhesión a una propuesta._
-image::img/functional-architecture-es.svg[]
+image::functional-architecture-es.svg[]
 
 * *Espacios de participación.* Es el marco que define la forma en la que la participación va a llevarse a cabo, los _canales_ o medios por los que la ciudadanía o los miembros de una organización pueden tramitar demandas o articular propuestas y tomar decisiones. Son espacios de participación las _Iniciativas_, los _Procesos_, las _Asambleas_ y las _Consultas_. Ejemplos concretos de cada uno de ellos son: una iniciativa ciudadana para cambiar directamente un reglamento (_Iniciativa_), la asamblea general o un consejo de trabajadores (_Asamblea_), unos presupuestos participativos, un proceso electoral o un proceso de planificación estratégica (_Procesos_), un referéndum o una llamada a votar Si o No a una propuesta concreta (_Consulta_).
 * *Componentes de participación.* Son los _mecanismos_ de participación que permiten la interacción entre las personas usuarias de la plataforma y cada uno de los espacios de participación. Los componentes de participación son: _encuentros, jornadas, incubadora, propuestas, textos participativos, encuestas, debates, resultados, seguimiento, votaciones, páginas, blog, comentarios, boletín_ y _buscador_.Otros componentes son: _textos participativos, rendición de cuentas_ y _conferencias._
 
 [#espacios-componentes-fig]
 ._Decidim muestra espacios participativos en el menú superior (oscuro) y los componentes se muestran en el menú inferior (blanco)._
-image::img/spaces-components.png[]
+image::spaces-components.png[]
 
 Las formas en que los espacios y componentes interactúan son las siguientes. Las personas usuarias de la plataforma (participantes) interactúan a través de los mecanismos de participación llamados _componentes_ que ofrecen funcionalidades específicas para diferentes _espacios_ de participación. Dicho de otro modo, los _espacios_ de participación como las _Iniciativas_, las _Asambleas_, los _Procesos_ o las _Consultas_ disponen de componentes que se combinan entre sí como mecanismos de participación. Entre los componentes más destacados están los _encuentros presenciales_, las _encuestas_, las _propuestas_, las _votaciones,_ el _seguimiento de resultados_ y los _comentarios_. Así, por ejemplo, un proceso de participación específico (como la elaboración de presupuestos participativos) puede combinar, en sus diferentes fases, los siguientes componentes: en una fase temprana se pueden abrir reuniones públicas para que los ciudadanos analicen las diferentes necesidades clasificadas por distritos. A su vez, estas reuniones pueden conducir al diseño de una encuesta. Los resultados de la encuesta pueden utilizarse para definir un conjunto de categorías para los proyectos que se propongan. El componente de propuesta puede activarse para que los participantes creen y publiquen sus proyectos como soluciones a las necesidades identificadas. Estas propuestas pueden ser comentadas y, después de dos semanas de deliberación, se puede activar el componente de votación para seleccionar entre los proyectos con un sistema de gastos presupuestarios. Los participantes pueden ser convocados a una reunión pública para evaluar los resultados, y después se puede lanzar una encuesta de evaluación para aquellos que no pudieron asistir a la reunión. Finalmente, el componente de rendición de cuentas puede ser activado para monitorear el grado de ejecución de los proyectos seleccionados, y la gente puede hacer comentarios al respecto. Lo que hace que Decidim sea particularmente poderoso es esta combinación de componentes dentro de los espacios, que proporciona a una organización un completo conjunto de herramientas para diseñar e implementar fácilmente un sistema democrático y adaptarlo a las necesidades de la organización.
 
@@ -37,7 +44,7 @@ Los elementos de los componentes (por ejemplo, una propuesta, una entrada de blo
 
 [#tarjeta-propuesta-fig]
 ._Ejemplo de tarjeta de propuesta de decisión._
-image::img/card-anatomy.png[]
+image::card-anatomy.png[]
 
 Los usuarios que participan en Decidim se pueden agrupar en tres categorías diferentes:
 

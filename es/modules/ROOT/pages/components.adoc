@@ -1,4 +1,11 @@
 = Componentes
+:page-partial:
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
 
 Los componentes de Decidim son los mecanismos básicos de participación que se activan y configuran para los diferentes espacios de participación o subespacios (fases de un proceso, grupos de trabajo de un órgano, etc.).
 

@@ -38,7 +38,15 @@ include::{partialsdir}/CONTRIBUTING.adoc[tag=contents]
 // (3/4) ADD BELOW THE LIST OF REGULAR CHAPTERS OR SECTIONS. IMPORTANT: PUT A
 // BLANK LINE BETWEEN INCLUDES.
 
-include::introduction.adoc[]
+include::general-description.adoc[]
+
+include::participatory-spaces.adoc[]
+
+include::components.adoc[]
+
+include::participants.adoc[]
+
+include::general-functionalities.adoc[]
 
 
 [appendix]

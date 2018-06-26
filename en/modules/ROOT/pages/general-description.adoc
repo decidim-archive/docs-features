@@ -1,4 +1,11 @@
 = General description and introduction to how Decidim works
+:page-partial:
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
 
 Decidim [http://decidim.org], from the Catalan for "let's decide", is a digital infrastructure for participatory democracy, built entirely and collaboratively as free software. More specifically, Decidim is a web environment (a _framework_) produced in _Ruby on Rails_ that allows users to create and configure a website platform or portal, to be used in the form of a social network, for democratic participation. The portal allows any organization (local city council, association, university, NGO,trade union, neighborhood or cooperative) to create massive democratic processes for strategic planning, participatory budgeting, collaborative regulatory design, urban spaces design and elections. It also enables the organization of in-person meetings, signing up for them, the publication of minutes, proposing points for the agenda and receiving notifications of the results. Decidim can also help organizing governing bodies, councils or assemblies, the convening of consultations and referendums or channeling citizen or member initiatives to impact different decision making processes. All together Decidim makes possible to digitally structure a complete system of participatory democratic governance for any organization.
 
@@ -6,14 +13,14 @@ To understand in detail how Decidim operates, a distinction must be made between
 
 [#functional-architecture-fig]
 ._Summary diagram of Decidim's functional architecture showing a combination of components in participatory spaces. The "Vote*" component allows a variety of voting systems, expressions of support or allegiance for a proposal._
-image::img/functional-architecture-en.svg[]
+image::functional-architecture-en.svg[]
 
 * *Participatory spaces.* These are the frameworks that define how participation will be carried out, the _channels_ or means through which citizens or members of an organization can process requests or coordinate proposals and make decisions. _Initiatives_, _Processes_, _Assemblies_ and _Consultations_ are all participatory spaces. Specific examples of each of these include: a citizen initiative for directly changing a regulation (_Initiative_); a general assembly or workers’ council (_Assembly_); a participatory budgeting, strategic planning, or electoral process (_Processes_); a referendum or a call to vote “Yes” or “No” to change the name of an organization (_Consultation_).
 * *Participatory components.* These are the participatory _mechanisms_ that allow a series of operations and interactions between the platform users within each of the participatory spaces. The following are participatory components: _comments, proposals, amendments, votes, results, debates, surveys, sortitions, pages, blogs, newsletters_ and _meetings_. Other components that build on top of basic components are: _participatory texts_, _accountability_ and _conferences_.
 
 [#spaces-components-fig]
 ._Decidim displays participatory spaces on the top menu (dark) and components are displayed on the bottom menu (white)._
-image::img/spaces-components.png[]
+image::spaces-components.png[]
 
 The ways in which spaces and components interact is the following. Users of the platform (participants) interact through participatory mechanisms known as components which afford a variety of features for the various participatory _spaces_. In other words, participatory _spaces_ such as _Initiatives_, _Assemblies_, _Processes_ and _Consultations_ have components at their disposal which work together as participatory mechanisms. The more notable components include in-person _meetings_, _surveys_, _proposals_, _votes_, _results_ and _comments_. So, for example, the various phases of a participatory budgeting process can combine components in the following way: at an early phase public meetings can be opened for citizens to analyze different needs classified by districts. In turn these meetings can lead to the design of a survey. The survey results can then be used to define a set of categories for projects to be proposed. The proposal component can then be activated for participants to create and publish their projects as solutions to the identified needs. These proposals can then be commented and, after two weeks of deliberation, the voting component can be activated to select among the projects with a budget-expenditure system. Participants can then be called to a public meeting to evaluate the results, and an assessment survey can be launched afterwards for those who could not attend the meeting. Finally, the accountability component may be activated to monitor the degree of execution of the selected projects, and people can comment on it. What makes Decidim particularly powerful is this combination of components within spaces, which provides an organization with a complete toolkit to easily design and deploy a democratic system and adapt it to the organization's needs.
 
@@ -37,7 +44,7 @@ Component items (e.g. a proposal, a blog post, a meeting) have their individual 
 
 [#card-anatomy-fig]
 ._Decidim's proposal card anatomy._
-image::img/card-anatomy.png[]
+image::card-anatomy.png[]
 
 The users who participate in Decidim can be grouped into three different categories:
 

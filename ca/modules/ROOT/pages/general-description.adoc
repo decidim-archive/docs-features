@@ -1,4 +1,11 @@
 = Descripció general i introducció al funcionament de Decidim
+:page-partial:
+
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+
+include::{partialsdir}/README.adoc[tag=metadata]
 
 Decidim (http://decidim.org) és una infraestructura digital per a la democràcia participativa construïda enterament en programari lliure de manera col·laborativa. Més concretament, Decidim és un entorn web (un _framework_) fet amb Ruby on Rails que permet crear i configurar un portal o plataforma web, a tall d'una xarxa social, per a la participació democràtica. El portal permet a qualsevol organització (un ajuntament, una associació, universitat, ONG, barri o cooperativa) crear processos massius de planificació, de pressupostos participatius, de disseny col·laboratiu de reglaments, disseny d'espais urbans i eleccions. També permet organitzar reunions presencials, convocar trobades, inscripcions, publicació d'actes, estructurar òrgans de governs o assemblees, convocar consultes o canalitzar iniciatives. Decidim també pot ajudar en l'organització d'òrgans de govern, consells o assemblees, en la convocatòria de consultes i referèndums o en la canalització d'iniciatives ciutadanes o dels membres per impactar en diferents processos de presa de decisions. Així doncs, Decidim permet estructurar digitalment un complert sistema de governança participativa i democràtica per a qualsevol organització.
 
@@ -6,14 +13,14 @@ Per comprendre en detall el funcionament de Decidim, és necessari fer una difer
 
 [#arquitectura-funcional-fig]
 ._Diagrama resumit de Decidim com a combinació de components en instàncies d'espais de participació. El component Votacions* permet diferents sistemes de vot, expressió de suport o adhesió a una proposta._
-image::img/functional-architecture-ca.svg[]
+image::functional-architecture-ca.svg[]
 
 * *Espais de participació*. És el marc que defineix la manera en la qual la participació es durà a terme, els _canals_ o mitjans pels quals la ciutadania o els membres d'una organització poden tramitar demandes o articular propostes i prendre decisions. Són espais de participació les _Iniciatives_, els _Processos_, les _Assemblees_ i les _Consultes_. Exemples concrets de cada un d'ells són: una iniciativa ciutadana per canviar directament un reglament (_Iniciativa_), l'assemblea general o un consell de treballadors (_Assemblea_), uns pressupostos participatius, un procés electoral o un procés de planificació estratègica (_Processos_), un referèndum o una consulta per votar Si o No a una proposta concreta (_Consulta_).
 * *Components de participació*. Són els _mecanismes_ de participació que permeten la interacció entre les persones usuàries de la plataforma i cada un dels espais de participació. Els components de participació són: _trobades, jornades, incubadora, propostes, textos participatius, enquestes, debats, resultats, seguiment, votacions, pàgines, blog, comentaris, butlletí i cercador._ Altres components són: _textos participatius, seguiment de resultats i conferències_.
 
 [#espais-components-fig]
 ._Decidim mostra espais participatius en el menú superior (fosc) i els components es mostren en el menú inferior (blanc)._
-image::img/spaces-components.png[]
+image::spaces-components.png[]
 
 Les formes en què els espais i components interactuen són les següents. Les persones usuàries de la plataforma (participants) interactuen a través dels mecanismes de participació anomenats _components_ que ofereixen funcionalitats específiques per a diferents _espais_ de participació. Dit d'una altra manera, els _espais_ de participació com les _Iniciatives_, les _Assemblees_, els _Processos_ o les _Consultes_ disposen de components que es combinen entre si com a mecanismes de participació. Entre els components més destacats hi ha les _trobades presencials_, les _enquestes_, les _propostes_, les _votacions,_ el _seguiment de resultats_ i els _comentaris_. Així, per exemple, un procés de participació específic (com l'elaboració de pressupostos participatius) pot combinar, en les seves diferents fases, els següents components: en una fase primera es poden obrir reunions públiques perquè els ciutadans analitzin les diferents necessitats classificades per districtes. Alhora, aquestes reunions poden conduir al disseny d'una enquesta. Els resultats de l'enquesta es poden utilitzar per definir un conjunt de categories per als projectes que es proposin.  El component de proposta es pot activar perquè els participants creuen i publiquin els seus projectes com solucions a les necessitats identificades. Aquestes propostes poden ser comentades i, després de dues setmanes de deliberació, es pot activar el component de votació per seleccionar entre els projectes amb un sistema de despeses pressupostàries. Els participants poden ser convocats a una reunió pública per avaluar els resultats, i després es pot llançar una enquesta d'avaluació per a aquells que no van poder assistir a la reunió. Finalment, el component de seguiment de resultat pot ser activat per monitoritzar el grau d'execució dels projectes seleccionats, i la gent pot fer comentaris al respecte. El que fa de Decidim una eina molt potent és aquesta combinació dels components amb els diferents espais, el qual proporciona a una organització un complet conjunt d'eines per disseyar i implementar facilment un sistema democràtic i adaptar-lo a les necessitats de l'organització.
 
@@ -37,7 +44,7 @@ Els elements dels components (per exemple, una proposta, una entrada de blog, un
 
 [#targeta-proposta-fig]
 ._Exemple de targeta de proposta de decisió._
-image::img/card-anatomy.png[]
+image::card-anatomy.png[]
 
 Els usuaris que participen en Decidim es poden agrupar en tres categories diferents:
 
