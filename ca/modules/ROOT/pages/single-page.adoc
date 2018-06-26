@@ -1,0 +1,49 @@
+ifndef::env-site,env-github[]
+include::_attributes.adoc[]
+endif::[]
+include::{partialsdir}/README.adoc[tag=metadata]
+= {doctitle}
+
+// (1/4) CHANGE TOC POSITION AND LEVELS, IF NEEDED. ALSO :sectnums:
+ifndef::env-site,env-github[]
+:toc: left
+endif::[]
+:toclevels: 2
+:sectnums!:
+
+[.lead]
+{_subtitle}
+
+[abstract]
+{_summary}
+
+== Metadades
+
+include::{partialsdir}/README.adoc[tag=metadata-table]
+
+<<<
+
+== Criteris d'autoria i com participar en aquest document
+
+include::{partialsdir}/CONTRIBUTING.adoc[tag=contents]
+
+<<<
+
+:leveloffset: +1
+// (2/4) ADD BELOW THE LIST OF *UNNUMBERED* (e.g. PREAMBLE) CHAPTERS OR
+// SECTIONS. IMPORTANT: PUT A BLANK LINE BETWEEN INCLUDES.
+
+
+:sectnums:
+// (3/4) ADD BELOW THE LIST OF REGULAR CHAPTERS OR SECTIONS. IMPORTANT: PUT A
+// BLANK LINE BETWEEN INCLUDES.
+
+include::introduction.adoc[]
+
+
+[appendix]
+// (4/4) ADD BELOW THE LIST OF APPENDIXES. IMPORTANT: PUT A BLANK LINE BETWEEN
+// INCLUDES.
+
+
+:leveloffset: -1

@@ -1,0 +1,16 @@
+// Add to the following lists cross references to all the pages you want to see
+// listed in the navigation menu for this document.
+.Informació
+* xref:doc-info.adoc[Informació del document]
+* xref:contributing.adoc[Criteris d'autoria i com participar en aquest document]
+
+.Continguts
+* xref:introduction.adoc[Introducció]
+* Segona secció
+** Subsecció A
+** Subsecció B
+* Tercera secció
+
+.Altres formats
+* xref:single-page.adoc[Pàgina única (HTML)]
+* [.pdf-download-button]#PDF#
