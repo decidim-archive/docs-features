@@ -13,7 +13,7 @@ Per comprendre en detall el funcionament de Decidim, és necessari fer una difer
 
 [#arquitectura-funcional-fig]
 ._Diagrama resumit de Decidim com a combinació de components en instàncies d'espais de participació. El component Votacions* permet diferents sistemes de vot, expressió de suport o adhesió a una proposta._
-image::functional-architecture-ca.svg[]
+image::functional-architecture-ca.png[]
 
 * *Espais de participació*. És el marc que defineix la manera en la qual la participació es durà a terme, els _canals_ o mitjans pels quals la ciutadania o els membres d'una organització poden tramitar demandes o articular propostes i prendre decisions. Són espais de participació les _Iniciatives_, els _Processos_, les _Assemblees_ i les _Consultes_. Exemples concrets de cada un d'ells són: una iniciativa ciutadana per canviar directament un reglament (_Iniciativa_), l'assemblea general o un consell de treballadors (_Assemblea_), uns pressupostos participatius, un procés electoral o un procés de planificació estratègica (_Processos_), un referèndum o una consulta per votar Si o No a una proposta concreta (_Consulta_).
 * *Components de participació*. Són els _mecanismes_ de participació que permeten la interacció entre les persones usuàries de la plataforma i cada un dels espais de participació. Els components de participació són: _trobades, jornades, incubadora, propostes, textos participatius, enquestes, debats, resultats, seguiment, votacions, pàgines, blog, comentaris, butlletí i cercador._ Altres components són: _textos participatius, seguiment de resultats i conferències_.
