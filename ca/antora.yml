@@ -5,13 +5,13 @@ name: features
 
 # MANDATORY. Title of the document as we want it to appear in docs.decidim.org
 # menus and navigation links. It's probably the same as README.adoc's
-# :_title: attribute.
+# {doctitle} attribute.
 # Example: "My Awesome Document" (quotes not needed)
 title: Funcionalitats i característiques de Decidim
 
 # MANDATORY. "en", "es" or "ca". If more than one revision of the document is
 # going to be shown, then append the revision as it appears in README.adoc's
-# :revnumber: attribute, e.g., "en/0.1" (quotes not needed).
+# {revnumber} attribute, e.g., "en/0.1" (quotes not needed).
 version: ca
 
 # MANDATORY. First page to show when we visit this document in docs.decidim.org.
