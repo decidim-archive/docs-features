@@ -10,6 +10,6 @@ include::{partialsdir}/README.adoc[tag=metadata]
 [abstract]
 {_summary}
 
-== Metadata
+== Metadatos
 
 include::{partialsdir}/README.adoc[tag=metadata-table]
