@@ -13,7 +13,7 @@ Para comprender en detalle el funcionamiento de Decidim, es necesario hacer una 
 
 [#arquitectura-funcional-fig]
 ._Diagrama resumido de Decidim como combinación de componentes en instancias de espacios de participación. El componente Votaciones* permite diferentes sistemas de voto, expresión de apoyo o adhesión a una propuesta._
-image::functional-architecture-es.png[]
+image::functional-architecture-es.svg[width=2000]
 
 * *Espacios de participación.* Es el marco que define la forma en la que la participación va a llevarse a cabo, los _canales_ o medios por los que la ciudadanía o los miembros de una organización pueden tramitar demandas o articular propuestas y tomar decisiones. Son espacios de participación las _Iniciativas_, los _Procesos_, las _Asambleas_ y las _Consultas_. Ejemplos concretos de cada uno de ellos son: una iniciativa ciudadana para cambiar directamente un reglamento (_Iniciativa_), la asamblea general o un consejo de trabajadores (_Asamblea_), unos presupuestos participativos, un proceso electoral o un proceso de planificación estratégica (_Procesos_), un referéndum o una llamada a votar Si o No a una propuesta concreta (_Consulta_).
 * *Componentes de participación.* Son los _mecanismos_ de participación que permiten la interacción entre las personas usuarias de la plataforma y cada uno de los espacios de participación. Los componentes de participación son: _encuentros, jornadas, incubadora, propuestas, textos participativos, encuestas, debates, resultados, seguimiento, votaciones, páginas, blog, comentarios, boletín_ y _buscador_.Otros componentes son: _textos participativos, rendición de cuentas_ y _conferencias._

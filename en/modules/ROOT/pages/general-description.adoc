@@ -13,7 +13,7 @@ To understand in detail how Decidim operates, a distinction must be made between
 
 [#functional-architecture-fig]
 ._Summary diagram of Decidim's functional architecture showing a combination of components in participatory spaces. The "Vote*" component allows a variety of voting systems, expressions of support or allegiance for a proposal._
-image::functional-architecture-en.png[]
+image::functional-architecture-en.svg[width=2000]
 
 * *Participatory spaces.* These are the frameworks that define how participation will be carried out, the _channels_ or means through which citizens or members of an organization can process requests or coordinate proposals and make decisions. _Initiatives_, _Processes_, _Assemblies_ and _Consultations_ are all participatory spaces. Specific examples of each of these include: a citizen initiative for directly changing a regulation (_Initiative_); a general assembly or workers’ council (_Assembly_); a participatory budgeting, strategic planning, or electoral process (_Processes_); a referendum or a call to vote “Yes” or “No” to change the name of an organization (_Consultation_).
 * *Participatory components.* These are the participatory _mechanisms_ that allow a series of operations and interactions between the platform users within each of the participatory spaces. The following are participatory components: _comments, proposals, amendments, votes, results, debates, surveys, sortitions, pages, blogs, newsletters_ and _meetings_. Other components that build on top of basic components are: _participatory texts_, _accountability_ and _conferences_.
