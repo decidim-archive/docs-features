@@ -58,7 +58,7 @@ include::attributes.adoc[]
 // MANDATORY. When the document is not in its 1.0 release, yet, we can write "WE
 // URGE YOU NOT TO CITE THIS YET UNTIL REVISION 1.0" Variables like {doctitle},
 // {authors}, {_subtitle}, {revnumber} or {docyear} can be used here.
-:_citation: Barandiaran, X.E. & Romero, C. (2017) {_title}. v{revnumber}.
+:_citation: Barandiaran, X.E. & Romero, C. (2017) {doctitle}. v{revnumber}.
 //
 // MANDATORY. Copyright ownership.
 :_copyleft: Ajuntament de Barcelona y personas autoras del texto
