@@ -116,9 +116,9 @@ Some of the meeting component’s advanced features include:
 * *Auto-convening*: verified participants will be able to convene meetings directly through the platform , with support from a certain number of other participants, the meeting will be publicly activated and convening participants will have access to the administration panel [function expected for 2018Q2, AjB-Lote2Mod2]
 * *Displaying and exporting meetings*: meetings can be displayed in map mode (for spaces or generally on the platform) or in calendar mode, and can be exported to agenda and calendar managers (in iCalendar format) [function expected for 2018Q2, AjB-Lote2Mod2].
 
-== Events
+== Conferences
 
-Events are defined as a series of meetings having several specific features (interactive and downloadable programme, registration system, system for generating certificates of attendance and/or diplomas).
+Conferences are defined as a series of meetings having several specific features (interactive and downloadable programme, registration system, system for generating certificates of attendance and/or diplomas).
 
 Decidim has a configuration and event-page generator, which enables the creation of an *internal website for holding events* relating to a participatory process or another participatory space. [The Event component is expected for 2018Q2, AjB-Lote2Mod5]
 
