@@ -120,7 +120,7 @@ Some of the meeting component’s advanced features include:
 
 Conferences are defined as a series of meetings having several specific features (interactive and downloadable programme, registration system, system for generating certificates of attendance and/or diplomas).
 
-Decidim has a configuration and event-page generator, which enables the creation of an *internal website for holding events* relating to a participatory process or another participatory space. [The Event component is expected for 2018Q2, AjB-Lote2Mod5]
+Decidim has a configuration and conference-page generator, which enables the creation of an *internal website for holding conferences* relating to a participatory process or another participatory space. [The Event component is expected for 2018Q3, AjB-Lote2Mod5]
 
 Configuration settings include:
 
