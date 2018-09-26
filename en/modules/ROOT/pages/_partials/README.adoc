@@ -109,7 +109,7 @@ ifeval::["{_participants}" != ""]
 endif::[]
 | Summary                               | {_summary}
 | Keywords                              | {keywords}
-ifeval::["{_history}" != ""]
+ifeval::["{_dochistory}" != ""]
 | Document history                      | {_dochistory}
 endif::[]
 | How to cite                           | {_citation}

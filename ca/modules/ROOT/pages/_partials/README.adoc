@@ -100,7 +100,7 @@ ifeval::["{_participants}" != ""]
 endif::[]
 | Resum                                 | {_summary}
 | Paraules clau                         | {keywords}
-ifeval::["{_history}" != ""]
+ifeval::["{_dochistory}" != ""]
 | Història del document                 | {_dochistory}
 endif::[]
 | Com es cita                           | {_citation}
