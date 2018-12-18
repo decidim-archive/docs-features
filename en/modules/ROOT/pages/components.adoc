@@ -17,11 +17,11 @@ Proposals are defined by one or more authors, a title, a text content and a cate
 
 Once a proposal has been published it may be *moderated* (if someone labels it as such and defines the reason for moderating) and it can also be *withdrawn* by author/s themselves.
 
-Proposals in the *administration* panel can *be ordered* under various criteria, can be commented on internally (without these observations being seen by the public), can be *downloaded* in JSON or CSV format (compatible with spreadsheet software), can be *recategorised* or *moved* to different spaces [the latter two features are expected for 2017Q4, AjB-Lote3Mod1]. In addition, proposals may be *accepted*, *rejected* or kept in an *evaluating* state.
+Proposals in the *administration* panel can *be ordered* under various criteria, can be commented on internally (without these observations being seen by the public), can be *downloaded* in JSON or CSV format (compatible with spreadsheet software), can be *recategorised* or *moved* to different spaces. In addition, proposals may be *accepted*, *rejected* or kept in an *evaluating* state.
 
 Other features associated with proposals include:
 
-* *Version control*: this makes it possible to keep a record of all the changes made to a proposal, as well as code-generation to verify the proposal’s integrity [2018Q3].
+* *Version control*: this makes it possible to keep a record of all the changes made to a proposal, as well as code-generation to verify the proposal’s integrity.
 * *Detecting similarities*: This allows anyone making a new proposal to find similar ones previously made on the platform, thereby avoiding duplications.
 * *Connections between proposals*: proposals made can be connected to one another using links in the comments section, showing related proposals as cards and giving notifications on the existence of a new connection.
 * *Support proposal*: participants can provide support for proposals.
@@ -34,12 +34,11 @@ Other features associated with proposals include:
 ** The listing of collaborative drafts
 ** Comments in drafts
 ** Asking for help from and accepting the help of other collaborators
-** Linking drafts to an appointment in person [Missing feature]
-** Promoting drafts on initiative, process or project proposal. [Missing feature]
+
 
 == Participatory texts
 
-Participatory texts are defined as an ordered collection of proposals that make up a document with complete text. Participation in the text stems from interaction with the proposals that form it. This component basically allows three operations [component expected for 2018Q2, AjB-Lote3Mod4]:
+Participatory texts are defined as an ordered collection of proposals that make up a document with complete text. Participation in the text stems from interaction with the proposals that form it. This component basically allows three operations:
 
 * *Breaking down a text document into ordered proposals* from a document in ODT, XDOC, MarkDown and HTML formats. If the text is structured in sections and subsections, ordered proposals will be created from the lower level subsection; if the text is not structured, a proposal will be created for each paragraph of text. The interface allows proposals to be re-edited, merged, separated, given titles, etc.
 * *Composition of proposals in a unified text*: based on a series of proposals, these may be ordered and generate a unified and downloadable text.
@@ -53,15 +52,15 @@ The results component allows *official responses* to be managed for all the prop
 
 Results collect *metadata on the traceability* of the proposals incorporated into the result, as well as the meetings where they were discussed and debated or created (by those attending these meetings) and the endorsements received.
 
-== Monitoring results
+== Accountability: monitoring results
 
 The result-monitoring component enables *results to be turned into projects* or allows them to be broken down into projects or sub-projects. Each of these projects can be described in further detail and allows *the implementation status to be defined*, in sections which range from 0% implementation to 100%. The monitoring component also enables people visiting the platform to *view the level of implementation* (comprehensive, by category and/or subcategory), of the results and projects. Results, projects and statuses can be updated through a CVS, or manually by the administration interface.
 
-== Votes and/or endorsements
+== Support/votes and endorsements
 
 Participants can endorse proposals. Such endorsements can be interpreted as votes, signatures, endorsements or in any other format that demonstrates a positive agreement in accordance with the political will itself.
 
-There are *several voting and management systems* for this in Decidim. The simplest way is by activating endorsements, so that participants can issue a single endorsement for each proposal they wish, without any limit to the number of proposals that can be voted for. Alternatively, the number of votes can be limited (e.g. 10 per participant).
+There are *several support/voting and management systems* for this in Decidim. The simplest way is by activating endorsements, so that participants can issue a single endorsement for each proposal they wish, without any limit to the number of proposals that can be voted for. Alternatively, the number of votes can be limited (e.g. 10 per participant).
 
 From the administration panel it is possible to configure the *display settings for the voting results* either during or solely after the voting period.
 
@@ -95,7 +94,7 @@ This component enables users to convene meetings, *add them to a calendar with g
 
 The configuration *settings* for meetings include the following *basic fields*: Title; description; address; location; Location hints; start and end time; scope; category and maximum seating capacity.
 
-It also includes the following *advanced fields*: nature (public, open, closed); organiser group; existence of reconciliation space; adaptation to people with functional diversity; existence of simultaneous translation; type of meeting (informative, creative, deliberative, decision-making, evaluative, account giving, etc.) [function expected for [2018Q2, AjB-Lote2Mod2].
+It also includes the following *advanced fields*: nature (public, open, closed); organiser group; existence of reconciliation space; adaptation to people with functional diversity; existence of simultaneous translation; type of meeting (informative, creative, deliberative, decision-making, evaluative, account giving, etc.).
 
 Meetings relating to a participatory space (a specific process or an assembly) can be shown on a *map* and be *ordered by date or category*. Besides, all the meetings can be shown in *calendar mode*, with the possibility of exporting them to a mobile phone calendar or other apps.
 
@@ -106,21 +105,21 @@ Some of the meeting component’s advanced features include:
 ** It allows participants *to register* for a meeting, request *a family reconciliation service* (playroom, childcare space) and to obtain an *accreditation code* for attending at a meeting.
 ** Those registered who have attended a meeting will have *special access* enabling them to evaluate the meeting or make comments, etc.
 ** Participants or administrators will be able to receive *notifications* on registration-period openings, the number of places remaining for registrations, reminders of meetings, and the publication of minutes.
-* *Managing agendas*: allows to define the duration of meetings, to create agenda’s items and sub-items, title, content, and estimated duration. Participants can propose agenda items. [function expected for 2018Q2, AjB-Lote2Mod2]
-* System for *drafting, publishing and validating meeting minutes* [function expected for 2018Q2, AjB-Lote2Mod2]:
+* *Managing agendas*: allows to define the duration of meetings, to create agenda’s items and sub-items, title, content, and estimated duration. Participants can propose agenda items.
+* System for *drafting, publishing and validating meeting minutes* [IMPORTANT NOTE:This is currently implemented differently]:
 ** Minutes can be uploaded in video, audio or text format.
 ** Minutes in text mode are associated with a *collaborative writing board* integrated into Decidim.
 ** Minutes go through 4 *stages of preparation*: 1. Collaborative writing during the meeting; 2. Preparing the official draft of the minutes; 3. Draft-amendment stage; 4. Publication and final validation of the minutes.
 ** Minutes can be *commented on* using the comments component.
 ** *Accompanying documents* may also be added to the minutes.
-* *Auto-convening*: verified participants will be able to convene meetings directly through the platform , with support from a certain number of other participants, the meeting will be publicly activated and convening participants will have access to the administration panel [function expected for 2018Q2, AjB-Lote2Mod2]
-* *Displaying and exporting meetings*: meetings can be displayed in map mode (for spaces or generally on the platform) or in calendar mode, and can be exported to agenda and calendar managers (in iCalendar format) [function expected for 2018Q2, AjB-Lote2Mod2].
+* *Auto-convening*: verified participants will be able to convene meetings directly through the platform , with support from a certain number of other participants, the meeting will be publicly activated and convening participants will have access to the administration panel [IMPORTANT: not implemented yet]
+* *Displaying and exporting meetings*: meetings can be displayed in map mode (for spaces or generally on the platform) or in calendar mode, and can be exported to agenda and calendar managers (in iCalendar format).
 
 == Conferences
 
 Conferences are defined as a series of meetings having several specific features (interactive and downloadable programme, registration system, system for generating certificates of attendance and/or diplomas).
 
-Decidim has a configuration and conference-page generator, which enables the creation of an *internal website for holding conferences* relating to a participatory process or another participatory space. [The Event component is expected for 2018Q3, AjB-Lote2Mod5]
+Decidim has a configuration and conference-page generator, which enables the creation of an *internal website for holding conferences* relating to a participatory process or another participatory space.
 
 Configuration settings include:
 

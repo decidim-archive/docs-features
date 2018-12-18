@@ -21,15 +21,15 @@ Decidim can be easily integrated with the following services that can be install
 
 * *OpenStreetMap*: to show events and proposals with geo-location
 * *Piwik*: website traffic analysis
-* *Pad*: collaborative real-time writing boards (technology to be determined) [Feature expected for 2018Q2-3 AjB-Lote1]
+* *Pad*: collaborative real-time writing boards (technology to be determined)
 * *Digital identity and signature*: integration with OAuth2 digital-identity management system, systems based on blockchain and recognised institutional digital identity and signature management systems.
-* *Distributed filing system*: Disseminating or copying proposals or other elements from the platform in a distributed filing system (blockchain or IPFS type) [Feature expected for 2018Q2-3, AjB-Lote1].
-* *Microblogging*: integration/compatibility with a standardised and open microblogging protocol/service such as GNU Social or StatusNet type for participants’ activities (proposals, observations and messages) [Feature expected for 2018Q2-3, AjB-Lote1].
+* *Distributed filing system*: Disseminating or copying proposals or other elements from the platform in a distributed filing system (blockchain or IPFS type) [Missing feature].
+* *Microblogging*: integration/compatibility with a standardised and open microblogging protocol/service such as GNU Social or StatusNet type for participants’ activities (proposals, observations and messages) [Missing feature].
 
 Decidim automatically generates the following services besides the ones that can be browsed on the website or accessed through an API:
 
 * *SMTP*: sending emails.
-* *Calendar*: integration and compatibility with calendar-management systems and automatic creation and updating of events calendars, etc. [Feature expected for 2018Q2-3, AjB-Lote1].
+* *Calendar*: integration and compatibility with calendar-management systems and automatic creation and updating of events calendars, etc.
 
 == Multitenancy
 
@@ -61,11 +61,11 @@ All of these displays are accompanied by an **option for downloading data **in C
 
 Decidim has an application programming interface or API which is a series of independent service calls and data from Decidim's website interface. This allows third parties to develop services on the platform, automatically release data or develop new interfaces, or integrate other services with decidim.
 
-The API comes with *documents* and a *formal participatory ontology* [Feature expected for 2018Q2-3, AjB-Lote1]
+The API comes with *documentation* and a *formal participatory ontology* [Not completed]
 
 Decidim's website *design* is completely *adaptable* (_responsive_), using _mobile-first_ design philosophy (designed first for mobiles and later extended to desktop systems and tablets).
 
-Both the website's design and the API enable the development of mobile apps for Decidim, and a *Mobile App* is expected to be developed for the end of 2018 [AjB].
+Both the website's design and the API enable the development of mobile apps for Decidim, and a *Mobile App* is expected to be developed soon.
 
 == Content-classification systems
 
@@ -79,4 +79,4 @@ In contrast to fields and categories, *labels* or tags are cross-cutting and fre
 
 == Contextual help system, usability and evaluation tests
 
-Decidim includes *editable contextual help* for guiding individual and administrative participants in using the platform. It also includes a system that allows **usability experiments **to be carried out with tests and usage statistics, as well as **automatic evaluation surveys **to be conducted on participants for the purposes of identifying usability and participatory-procedure errors and improving the democratic quality experience of the software [Feature expected for 2018Q-3, AjB-Lote1].
+Decidim includes *editable contextual help* for guiding individual and administrative participants in using the platform. It also includes a **automatic evaluation surveys** to be conducted on participants for the purposes of identifying usability and participatory-procedure errors and improving the democratic quality experience of the software .
