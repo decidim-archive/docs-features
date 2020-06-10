@@ -1,9 +1,1 @@
-// Add to the following lists cross references to all the pages you want to see
-// listed in the navigation menu for this document.
-* xref:general-description.adoc[Descripció general i introducció al funcionament de Decidim]
-* xref:participatory-spaces.adoc[Espais de participació]
-* xref:components.adoc[Components]
-* xref:participants.adoc[Participants]
-* xref:general-features.adoc[Funcionalitats generals]
-* xref:doc-info.adoc[_Informació del document_]
-* xref:contributing.adoc[_Criteris d'autoria i com participar en aquest document_]
+include::decidim::partial$nav-decidim.adoc[]

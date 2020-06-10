@@ -1,0 +1,5 @@
+* xref:general-description.adoc[]
+* xref:participatory-spaces.adoc[]
+* xref:components.adoc[]
+* xref:participants.adoc[]
+* xref:general-features.adoc[]
