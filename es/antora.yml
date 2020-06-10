@@ -1,27 +1,62 @@
-# MANDATORY. Identifier of the document in URLs. Use '-' as word separator.
-# It can include letters, numbers and periods ( . ), but no other symbols.
-# Example: "my-awesome-doc" (quotes not needed)
 name: features
-
-# MANDATORY. Title of the document as we want it to appear in docs.decidim.org
-# menus and navigation links. It's probably the same as README.adoc's
-# {doctitle} attribute.
-# Example: "My Awesome Document" (quotes not needed)
 title: Funcionalidades y características de Decidim
-
-# MANDATORY. "en", "es" or "ca". If more than one revision of the document is
-# going to be shown, then append the revision as it appears in README.adoc's
-# {revnumber} attribute, e.g., "en/0.1" (quotes not needed).
-version: es
-
-# MANDATORY. First page to show when we visit this document in docs.decidim.org.
-# It must be "ROOT:" followed by a file present in modules/ROOT/pages/. See
-# https://docs.antora.org/antora/1.0/page/page-id/ to understand how Antora's
-# Page Ids work.
-start_page: ROOT:general-description.adoc
-
-# MANDATORY. A list of Antora navigation files. You probably don't need to
-# change this field. See https://docs.antora.org/antora/1.0/navigation/
-# if you want to learn more about it.
-nav: 
+version: master
+asciidoc:
+  attributes:
+    authors: Xabier E. Barandiaran; Carolina Romero
+    revdate: ~
+    description: >
+      Decidim (https://decidim.org) es una infraestructura digital para la
+      democracia participativa basada en software libre (Ruby on Rails), que
+      facilita la creación de portales de participación ciudadana. Las personas
+      usuarias de la plataforma (participantes) interactúan a través de los
+      mecanismos de participación llamados componentes que ofrecen
+      funcionalidades específicas para diferentes espacios de participación. Es
+      decir, los espacios de participación como las Iniciativas, las Asambleas,
+      los Procesos o las Consultas disponen de componentes que se combinan como
+      mecanismos de participación. Entre los componentes más destacados están
+      los encuentros presenciales, las encuestas, las propuestas, las
+      votaciones, el seguimiento de resultados y los comentarios. Por ejemplo,
+      un proceso de participación específico como la elaboración de presupuestos
+      participativos, puede combinar, en sus diferentes fases, varios
+      componentes  para: convocar y registrar los resultados de encuentros
+      presenciales con la ciudadanía, realizar una encuesta, hacer propuestas,y
+      en las fases finales del proceso, hacer una votación para decidir sobre
+      los proyectos con un sistema de gasto del presupuesto (siempre después de
+      un periodo de comentarios y debates), realizar una encuesta de evaluación
+      y, finalmente, un seguimiento de la ejecución de los proyectos escogidos.
+    keywords: >
+      Decidim, plataforma de participación democrática, componentes, espacios de
+      participación, software, e-democracia, participación, asamblearismo,
+      participación ciudadana, procesos participativos, consells de barri,
+      consultas ciudadanas, accountability, rendición de cuentas, propuestas,
+      e-voting, transparencia
+    page-lang: es@
+    page-subtitle: ~
+    page-editors: Xabier E. Barandiaran, Carolina Romero
+    page-contributors: Asier Amezaga, Andrés Pereira de Lucena
+    page-proofreaders: Andrés Pereira de Lucena, Marta Almela, Juan Linares
+    page-participants: Josan Minguela, Joana Guijarro
+    page-translators: ~
+    page-history: >
+      Este documento incluye una descripción de las funcionalidades existentes
+      en Decidim y de aquellas en fase de desarrollo o  de adjudicación
+      (definidas en  los  pliegos del concurso público de contratación para el
+      desarrollo de Decidim publicados por  el Ajuntament de Barcelona, código
+      de expediente  17000141). En el diseño de las funcionalidades existentes y
+      previstas participaron cientos de personas, durante las Jornadas Anuales
+      Metadecidim 2016, en el proceso de participación Metadecidim del portal de
+      participación del Ajuntament de Barcelona y en los encuentros mensuales
+      SOM.meta.decidim. El documento también toma conceptos y procedimiento del
+      nuevo reglamento de participación del Ajuntament de Barcelona que será
+      previsiblemente aprobado el día 29 de Septiembre y ha sido elaborado
+      participativamente a través del portal decidim.barcelona. Con motivo de
+      las Jornadas Anuales Metadecidim 2017, de las necesidad de coordinar la
+      implementación de las futuras funcionalidades con diferentes equipos de
+      técnicos municipales y de publicar un roadmap actualizado, el equipo
+      Decidim comenzó a redactar este documento para que sirva como referencia
+      de las funcionalidades presentes y previstas de Decidim en el periodo
+      2017-2018.
+    page-zotero-id: ~
+nav:
 - modules/ROOT/nav.adoc
