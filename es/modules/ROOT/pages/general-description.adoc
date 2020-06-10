@@ -1,11 +1,5 @@
 = Descripción general e introducción al funcionamiento de Decidim
-:page-partial:
-
-ifndef::env-site,env-github[]
-include::_attributes.adoc[]
-endif::[]
-
-include::{partialsdir}/README.adoc[tag=metadata]
+include::translations::partial$attributes.adoc[]
 
 Decidim [http://decidim.org], del catalán "decidimos", es una infraestructura digital para la democracia participativa construida enteramente en software libre de manera colaborativa. Más concretamente Decidim es un entorno web (un _framework_) hecho en _Ruby on Rails_ que permite crear y configurar un portal o plataforma web, a modo de una red social, para la participación democrática. El portal permite a cualquier organización (un ayuntamiento, una asociación, universidad, ONG, sindicato, barrio o cooperativa) crear procesos masivos de planificación, de presupuestos participativos, de diseño colaborativo de reglamentos, espacios urbanos o elecciones. También permite organizar reuniones presenciales, convocar encuentros, inscripciones, publicación de actas, estructurar órganos de gobiernos o asambleas, convocar consultas o canalizar iniciativas. Decidim también puede ayudar en la organización de órganos de gobierno, consejos o asambleas, en la convocatoria de consultas y referendos o en la canalización de iniciativas ciudadanas o de los miembros para impactar en diferentes procesos de toma de decisiones. Decidim permite estructurar digitalmente un sistema completo de gobernanza democrática participativa para cualquier organización.
 

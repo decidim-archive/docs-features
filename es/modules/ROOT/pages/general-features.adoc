@@ -1,11 +1,5 @@
 = Funcionalidades generales
-:page-partial:
-
-ifndef::env-site,env-github[]
-include::_attributes.adoc[]
-endif::[]
-
-include::{partialsdir}/README.adoc[tag=metadata]
+include::translations::partial$attributes.adoc[]
 
 Explicamos a continuación una serie de funcionalidades y características generales de la plataforma que no quedan recogidas en los espacios o componentes ni en las funcionalidades directamente asociadas a participantes.
 

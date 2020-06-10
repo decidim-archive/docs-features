@@ -1,11 +1,5 @@
 = Participants
-:page-partial:
-
-ifndef::env-site,env-github[]
-include::_attributes.adoc[]
-endif::[]
-
-include::{partialsdir}/README.adoc[tag=metadata]
+include::translations::partial$attributes.adoc[]
 
 == Registre i verificació
 

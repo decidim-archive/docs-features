@@ -1,11 +1,5 @@
 = Espacios de participación
-:page-partial:
-
-ifndef::env-site,env-github[]
-include::_attributes.adoc[]
-endif::[]
-
-include::{partialsdir}/README.adoc[tag=metadata]
+include::translations::partial$attributes.adoc[]
 
 Los espacios de participación definen los principales canales o vías de participación. Se muestran en el menú superior principal de la plataforma.
 
