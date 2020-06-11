@@ -1,5 +1,5 @@
 = General features
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 Below, we will outline a series of the platform’s general features and characteristics which do not appear in the spaces or components, or in the features directly associated with participants.
 

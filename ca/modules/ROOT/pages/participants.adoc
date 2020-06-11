@@ -1,5 +1,5 @@
 = Participants
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 == Registre i verificació
 

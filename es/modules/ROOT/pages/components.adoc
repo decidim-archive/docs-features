@@ -1,5 +1,5 @@
 = Componentes
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 Los componentes de Decidim son los mecanismos básicos de participación que se activan y configuran para los diferentes espacios de participación o subespacios (fases de un proceso, grupos de trabajo de un órgano, etc.).
 

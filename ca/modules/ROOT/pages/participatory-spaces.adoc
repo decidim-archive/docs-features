@@ -1,5 +1,5 @@
 = Espais de participació
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 Els espais de participació defineixen els canals o vies de participació principals. Es mostren al menú superior principal de la plataforma.
 

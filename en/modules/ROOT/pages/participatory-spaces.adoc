@@ -1,5 +1,5 @@
 = Participatory spaces
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 Participatory spaces define the main participatory channels. They are displayed in the platform's main upper menu.
 

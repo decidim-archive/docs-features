@@ -1,5 +1,5 @@
 = Components
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 Decidim’s components are basic participatory mechanisms that are activated and configured for the various participatory spaces or subspaces (stages of a process, the work groups of a body, etc.).
 

@@ -1,5 +1,5 @@
 = Funcionalidades generales
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 Explicamos a continuación una serie de funcionalidades y características generales de la plataforma que no quedan recogidas en los espacios o componentes ni en las funcionalidades directamente asociadas a participantes.
 

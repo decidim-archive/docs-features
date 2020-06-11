@@ -1,5 +1,5 @@
 = Components
-include::translations::partial$attributes.adoc[]
+include::decidim::partial$l10n.adoc[]
 
 Els components de Decidim són els mecanismes bàsics de participació que s'activen i configuren per als diferents espais de participació o subespais (fases d'un procés, grups de treball d'un òrgan, etcètera).
 
